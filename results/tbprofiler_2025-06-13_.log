@@ -100,8 +100,13 @@
            INFO     Trimming reads                                   fastq.py:39
 [23:57:23] INFO     Mapping to reference genome                      fastq.py:53
 [23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [23:57:37] INFO     Running delly                                      bam.py:84
 [23:57:20] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -128,8 +133,13 @@
            INFO     Trimming reads                                   fastq.py:39
 [23:57:23] INFO     Mapping to reference genome                      fastq.py:53
 [23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [23:57:37] INFO     Running delly                                      bam.py:84
 [23:57:43] INFO     Running snpEff                                    vcf.py:108
 [23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
@@ -159,15 +169,22 @@
            INFO     Trimming reads                                   fastq.py:39
 [23:57:23] INFO     Mapping to reference genome                      fastq.py:53
 [23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [23:57:37] INFO     Running delly                                      bam.py:84
 [23:57:43] INFO     Running snpEff                                    vcf.py:108
 [23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:57:48] INFO     Counting kmers                                  fastq.py:133
 [23:57:50] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10933it [00:00, 2111735.00it/s]
+
+0it [00:00, ?it/s]
+10933it [00:00, 2111735.00it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:57:20] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -194,15 +211,22 @@
            INFO     Trimming reads                                   fastq.py:39
 [23:57:23] INFO     Mapping to reference genome                      fastq.py:53
 [23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [23:57:37] INFO     Running delly                                      bam.py:84
 [23:57:43] INFO     Running snpEff                                    vcf.py:108
 [23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:57:48] INFO     Counting kmers                                  fastq.py:133
 [23:57:50] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10933it [00:00, 2111735.00it/s]
+
+0it [00:00, ?it/s]
+10933it [00:00, 2111735.00it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:57:54] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -235,15 +259,22 @@
            INFO     Trimming reads                                   fastq.py:39
 [23:57:23] INFO     Mapping to reference genome                      fastq.py:53
 [23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [23:57:37] INFO     Running delly                                      bam.py:84
 [23:57:43] INFO     Running snpEff                                    vcf.py:108
 [23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:57:48] INFO     Counting kmers                                  fastq.py:133
 [23:57:50] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10933it [00:00, 2111735.00it/s]
+
+0it [00:00, ?it/s]
+10933it [00:00, 2111735.00it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:57:54] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -332,8 +363,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:14] INFO     Mapping to reference genome                      fastq.py:53
 [23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
 [23:58:23] INFO     Running delly                                      bam.py:84
 [23:58:12] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -360,15 +396,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:14] INFO     Mapping to reference genome                      fastq.py:53
 [23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
 [23:58:23] INFO     Running delly                                      bam.py:84
 [23:58:27] INFO     Running snpEff                                    vcf.py:108
 [23:58:28] INFO     Loading snpEff annotations                        vcf.py:144
 [23:58:29] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:58:31] INFO     Counting kmers                                  fastq.py:133
 [23:58:32] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10447it [00:00, 3338506.20it/s]
+
+0it [00:00, ?it/s]
+10447it [00:00, 3338506.20it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:58:12] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -395,15 +438,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:14] INFO     Mapping to reference genome                      fastq.py:53
 [23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
 [23:58:23] INFO     Running delly                                      bam.py:84
 [23:58:27] INFO     Running snpEff                                    vcf.py:108
 [23:58:28] INFO     Loading snpEff annotations                        vcf.py:144
 [23:58:29] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:58:31] INFO     Counting kmers                                  fastq.py:133
 [23:58:32] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10447it [00:00, 3338506.20it/s]
+
+0it [00:00, ?it/s]
+10447it [00:00, 3338506.20it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:58:35] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -434,15 +484,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:14] INFO     Mapping to reference genome                      fastq.py:53
 [23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
 [23:58:23] INFO     Running delly                                      bam.py:84
 [23:58:27] INFO     Running snpEff                                    vcf.py:108
 [23:58:28] INFO     Loading snpEff annotations                        vcf.py:144
 [23:58:29] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:58:31] INFO     Counting kmers                                  fastq.py:133
 [23:58:32] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10447it [00:00, 3338506.20it/s]
+
+0it [00:00, ?it/s]
+10447it [00:00, 3338506.20it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:58:35] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -552,8 +609,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:55] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
 [23:59:12] INFO     Running delly                                      bam.py:84
 [23:58:52] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -580,8 +642,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:55] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
 [23:59:12] INFO     Running delly                                      bam.py:84
 [23:59:18] INFO     Running snpEff                                    vcf.py:108
 [23:58:52] INFO     Using ref file:                                    db.py:645
@@ -609,15 +676,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:55] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
 [23:59:12] INFO     Running delly                                      bam.py:84
 [23:59:18] INFO     Running snpEff                                    vcf.py:108
 [23:59:19] INFO     Loading snpEff annotations                        vcf.py:144
 [23:59:20] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:59:24] INFO     Counting kmers                                  fastq.py:133
 [23:59:25] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10738it [00:00, 2297176.19it/s]
+
+0it [00:00, ?it/s]
+10738it [00:00, 2297176.19it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:58:52] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -644,15 +718,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:55] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
 [23:59:12] INFO     Running delly                                      bam.py:84
 [23:59:18] INFO     Running snpEff                                    vcf.py:108
 [23:59:19] INFO     Loading snpEff annotations                        vcf.py:144
 [23:59:20] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:59:24] INFO     Counting kmers                                  fastq.py:133
 [23:59:25] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10738it [00:00, 2297176.19it/s]
+
+0it [00:00, ?it/s]
+10738it [00:00, 2297176.19it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:59:30] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -681,15 +762,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:58:55] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
 [23:59:12] INFO     Running delly                                      bam.py:84
 [23:59:18] INFO     Running snpEff                                    vcf.py:108
 [23:59:19] INFO     Loading snpEff annotations                        vcf.py:144
 [23:59:20] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:59:24] INFO     Counting kmers                                  fastq.py:133
 [23:59:25] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10738it [00:00, 2297176.19it/s]
+
+0it [00:00, ?it/s]
+10738it [00:00, 2297176.19it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:59:30] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -751,8 +839,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:59:46] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]
+Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
 [23:59:51] INFO     Running delly                                      bam.py:84
 [23:59:45] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -779,15 +872,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:59:46] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]
+Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
 [23:59:51] INFO     Running delly                                      bam.py:84
 [23:59:53] INFO     Running snpEff                                    vcf.py:108
 [23:59:54] INFO     Loading snpEff annotations                        vcf.py:144
 [23:59:55] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:59:56] INFO     Counting kmers                                  fastq.py:133
 [23:59:58] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10917it [00:00, 3295373.64it/s]
+
+0it [00:00, ?it/s]
+10917it [00:00, 3295373.64it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:59:59] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -816,15 +916,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:59:46] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]
+Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
 [23:59:51] INFO     Running delly                                      bam.py:84
 [23:59:53] INFO     Running snpEff                                    vcf.py:108
 [23:59:54] INFO     Loading snpEff annotations                        vcf.py:144
 [23:59:55] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:59:56] INFO     Counting kmers                                  fastq.py:133
 [23:59:58] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10917it [00:00, 3295373.64it/s]
+
+0it [00:00, ?it/s]
+10917it [00:00, 3295373.64it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:59:59] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -857,15 +964,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [23:59:46] INFO     Mapping to reference genome                      fastq.py:53
 [23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]
+Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
 [23:59:51] INFO     Running delly                                      bam.py:84
 [23:59:53] INFO     Running snpEff                                    vcf.py:108
 [23:59:54] INFO     Loading snpEff annotations                        vcf.py:144
 [23:59:55] INFO     Getting genotypes for positions in bed file       bam.py:293
 [23:59:56] INFO     Counting kmers                                  fastq.py:133
 [23:59:58] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]10917it [00:00, 3295373.64it/s]
+
+0it [00:00, ?it/s]
+10917it [00:00, 3295373.64it/s]
            INFO     Calculating bamstats                              bam.py:359
 [23:59:59] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -952,8 +1066,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:00:19] INFO     Mapping to reference genome                      fastq.py:53
 [00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
 [00:00:27] INFO     Running delly                                      bam.py:84
 [00:00:31] INFO     Running snpEff                                    vcf.py:108
 [00:00:18] INFO     Using ref file:                                    db.py:645
@@ -981,15 +1100,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:00:19] INFO     Mapping to reference genome                      fastq.py:53
 [00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
 [00:00:27] INFO     Running delly                                      bam.py:84
 [00:00:31] INFO     Running snpEff                                    vcf.py:108
 [00:00:32] INFO     Loading snpEff annotations                        vcf.py:144
 [00:00:33] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:00:34] INFO     Counting kmers                                  fastq.py:133
 [00:00:36] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]9968it [00:00, 3139743.34it/s]
+
+0it [00:00, ?it/s]
+9968it [00:00, 3139743.34it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:00:38] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1018,15 +1144,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:00:19] INFO     Mapping to reference genome                      fastq.py:53
 [00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
 [00:00:27] INFO     Running delly                                      bam.py:84
 [00:00:31] INFO     Running snpEff                                    vcf.py:108
 [00:00:32] INFO     Loading snpEff annotations                        vcf.py:144
 [00:00:33] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:00:34] INFO     Counting kmers                                  fastq.py:133
 [00:00:36] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]9968it [00:00, 3139743.34it/s]
+
+0it [00:00, ?it/s]
+9968it [00:00, 3139743.34it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:00:38] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1059,15 +1192,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:00:19] INFO     Mapping to reference genome                      fastq.py:53
 [00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]
+Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
 [00:00:27] INFO     Running delly                                      bam.py:84
 [00:00:31] INFO     Running snpEff                                    vcf.py:108
 [00:00:32] INFO     Loading snpEff annotations                        vcf.py:144
 [00:00:33] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:00:34] INFO     Counting kmers                                  fastq.py:133
 [00:00:36] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]9968it [00:00, 3139743.34it/s]
+
+0it [00:00, ?it/s]
+9968it [00:00, 3139743.34it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:00:38] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1078,7 +1218,9 @@ tbprofiler_container
 [00:00:50] INFO     Searching for close samples in               snp_dists.py:77
                     /data/Analysis/tbprofiler_results_HMS24017_S                
                     15/results/snp_diffs.db                                     
-Searching for close samples: 0it [00:00, ?it/s]Searching for close samples: 0it [00:00, ?it/s]
+
+Searching for close samples: 0it [00:00, ?it/s]
+Searching for close samples: 0it [00:00, ?it/s]
 [00:00:51] INFO     Finished searching for close samples in      snp_dists.py:95
                     /data/Analysis/tbprofiler_results_HMS24017_S                
                     15/results/snp_diffs.db. Took 0:00:00.233643                
@@ -1194,8 +1336,14 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:00] INFO     Mapping to reference genome                      fastq.py:53
 [00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [00:01:16] INFO     Running delly                                      bam.py:84
 [00:00:57] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -1222,8 +1370,14 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:00] INFO     Mapping to reference genome                      fastq.py:53
 [00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [00:01:16] INFO     Running delly                                      bam.py:84
 [00:01:22] INFO     Running snpEff                                    vcf.py:108
 [00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
@@ -1253,15 +1407,23 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:00] INFO     Mapping to reference genome                      fastq.py:53
 [00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [00:01:16] INFO     Running delly                                      bam.py:84
 [00:01:22] INFO     Running snpEff                                    vcf.py:108
 [00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:01:28] INFO     Counting kmers                                  fastq.py:133
 [00:01:29] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]11786it [00:00, 2215284.20it/s]
+
+0it [00:00, ?it/s]
+11786it [00:00, 2215284.20it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:00:57] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -1288,15 +1450,23 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:00] INFO     Mapping to reference genome                      fastq.py:53
 [00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [00:01:16] INFO     Running delly                                      bam.py:84
 [00:01:22] INFO     Running snpEff                                    vcf.py:108
 [00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:01:28] INFO     Counting kmers                                  fastq.py:133
 [00:01:29] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]11786it [00:00, 2215284.20it/s]
+
+0it [00:00, ?it/s]
+11786it [00:00, 2215284.20it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:01:33] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1326,15 +1496,23 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:00] INFO     Mapping to reference genome                      fastq.py:53
 [00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]
+Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
 [00:01:16] INFO     Running delly                                      bam.py:84
 [00:01:22] INFO     Running snpEff                                    vcf.py:108
 [00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:01:28] INFO     Counting kmers                                  fastq.py:133
 [00:01:29] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]11786it [00:00, 2215284.20it/s]
+
+0it [00:00, ?it/s]
+11786it [00:00, 2215284.20it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:01:33] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1445,8 +1623,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:53] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]
+Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
 [00:02:05] INFO     Running delly                                      bam.py:84
 [00:02:10] INFO     Running snpEff                                    vcf.py:108
 [00:01:50] INFO     Using ref file:                                    db.py:645
@@ -1474,15 +1657,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:53] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]
+Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
 [00:02:05] INFO     Running delly                                      bam.py:84
 [00:02:10] INFO     Running snpEff                                    vcf.py:108
 [00:02:11] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:02:14] INFO     Counting kmers                                  fastq.py:133
 [00:02:15] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]11566it [00:00, 1966090.62it/s]
+
+0it [00:00, ?it/s]
+11566it [00:00, 1966090.62it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:01:50] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -1509,15 +1699,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:53] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]
+Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
 [00:02:05] INFO     Running delly                                      bam.py:84
 [00:02:10] INFO     Running snpEff                                    vcf.py:108
 [00:02:11] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:02:14] INFO     Counting kmers                                  fastq.py:133
 [00:02:15] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]11566it [00:00, 1966090.62it/s]
+
+0it [00:00, ?it/s]
+11566it [00:00, 1966090.62it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:02:19] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1548,15 +1745,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:01:53] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]
+Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
 [00:02:05] INFO     Running delly                                      bam.py:84
 [00:02:10] INFO     Running snpEff                                    vcf.py:108
 [00:02:11] INFO     Loading snpEff annotations                        vcf.py:144
            INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:02:14] INFO     Counting kmers                                  fastq.py:133
 [00:02:15] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]11566it [00:00, 1966090.62it/s]
+
+0it [00:00, ?it/s]
+11566it [00:00, 1966090.62it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:02:19] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1715,8 +1919,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:02:41] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]
+Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
 [00:03:05] INFO     Running delly                                      bam.py:84
 [00:02:36] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -1743,8 +1952,13 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:02:41] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]
+Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
 [00:03:05] INFO     Running delly                                      bam.py:84
 [00:03:15] INFO     Running snpEff                                    vcf.py:108
 [00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
@@ -1773,15 +1987,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:02:41] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]
+Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
 [00:03:05] INFO     Running delly                                      bam.py:84
 [00:03:15] INFO     Running snpEff                                    vcf.py:108
 [00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
 [00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:03:22] INFO     Counting kmers                                  fastq.py:133
 [00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+
+0it [00:00, ?it/s]
+12855it [00:00, 2135019.32it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:02:36] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -1808,15 +2029,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:02:41] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]
+Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
 [00:03:05] INFO     Running delly                                      bam.py:84
 [00:03:15] INFO     Running snpEff                                    vcf.py:108
 [00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
 [00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:03:22] INFO     Counting kmers                                  fastq.py:133
 [00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+
+0it [00:00, ?it/s]
+12855it [00:00, 2135019.32it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:02:36] INFO     Using ref file:                                    db.py:645
                     /opt/conda/share/tbprofiler/tbdb.fasta                      
@@ -1843,15 +2071,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:02:41] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]
+Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
 [00:03:05] INFO     Running delly                                      bam.py:84
 [00:03:15] INFO     Running snpEff                                    vcf.py:108
 [00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
 [00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:03:22] INFO     Counting kmers                                  fastq.py:133
 [00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+
+0it [00:00, ?it/s]
+12855it [00:00, 2135019.32it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:03:30] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
@@ -1882,15 +2117,22 @@ tbprofiler_container
            INFO     Trimming reads                                   fastq.py:39
 [00:02:41] INFO     Mapping to reference genome                      fastq.py:53
 [00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
-Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
-Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]
+Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]
+Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
 [00:03:05] INFO     Running delly                                      bam.py:84
 [00:03:15] INFO     Running snpEff                                    vcf.py:108
 [00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
 [00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
 [00:03:22] INFO     Counting kmers                                  fastq.py:133
 [00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
-0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+
+0it [00:00, ?it/s]
+12855it [00:00, 2135019.32it/s]
            INFO     Calculating bamstats                              bam.py:359
 [00:03:30] INFO     Getting qc metrics for regions                    bam.py:396
            INFO     Calculating depth in regions                       bam.py:54
