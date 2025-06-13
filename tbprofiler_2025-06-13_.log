@@ -1,0 +1,1901 @@
+
+<INFO>	[2025-06-13 01:57:19]	Starting TBProfiler analysis for sample HCU24001_S1.
+<INFO>	[2025-06-13 01:57:19]	The inputs for the analysis are HCU24001_S1_R1.fastq.gz and HCU24001_S1_R2.fastq.gz. The output will be HCU24001_S1.json and HCU24001_S1.csv
+<INFO>	[2025-06-13 01:57:19]	Results will be stored in tbprofiler_HCU24001_S1 folder, located in /home/cgerediaga/Analysis.
+1361efe78c3d673f7f9b0fb3b11031940464802bdd6b726e1c0a4d76e606dafc
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[23:57:37] INFO     Running delly                                      bam.py:84
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[23:57:37] INFO     Running delly                                      bam.py:84
+[23:57:43] INFO     Running snpEff                                    vcf.py:108
+[23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[23:57:37] INFO     Running delly                                      bam.py:84
+[23:57:43] INFO     Running snpEff                                    vcf.py:108
+[23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:57:48] INFO     Counting kmers                                  fastq.py:133
+[23:57:50] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10933it [00:00, 2111735.00it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[23:57:37] INFO     Running delly                                      bam.py:84
+[23:57:43] INFO     Running snpEff                                    vcf.py:108
+[23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:57:48] INFO     Counting kmers                                  fastq.py:133
+[23:57:50] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10933it [00:00, 2111735.00it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:57:54] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:57:57] INFO     Calculating median depth using samtools           bam.py:223
+[23:57:59] INFO     Getting missing genomic positions                 bam.py:389
+[23:58:00] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+[23:57:20] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:57:23] INFO     Mapping to reference genome                      fastq.py:53
+[23:57:33] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:01,  4.08s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.92it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[23:57:37] INFO     Running delly                                      bam.py:84
+[23:57:43] INFO     Running snpEff                                    vcf.py:108
+[23:57:45] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:57:48] INFO     Counting kmers                                  fastq.py:133
+[23:57:50] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10933it [00:00, 2111735.00it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:57:54] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:57:57] INFO     Calculating median depth using samtools           bam.py:223
+[23:57:59] INFO     Getting missing genomic positions                 bam.py:389
+[23:58:00] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+[23:58:06] INFO     Searching for close samples in               snp_dists.py:77
+                    /data/Analysis/tbprofiler_results_HCU24001_S                
+                    1/results/snp_diffs.db                                      
+tbprofiler_container
+
+<INFO>	[2025-06-13 01:58:12]	Starting TBProfiler analysis for sample HCU24002_S2.
+<INFO>	[2025-06-13 01:58:12]	The inputs for the analysis are HCU24002_S2_R1.fastq.gz and HCU24002_S2_R2.fastq.gz. The output will be HCU24002_S2.json and HCU24002_S2.csv
+<INFO>	[2025-06-13 01:58:12]	Results will be stored in tbprofiler_HCU24002_S2 folder, located in /home/cgerediaga/Analysis.
+8755efc7ed2f0964e94dbc75c6b0f7cc97eb7d55d7086cf335527d77e8895bb9
+[23:58:12] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:12] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:14] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:12] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:14] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+[23:58:23] INFO     Running delly                                      bam.py:84
+[23:58:12] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:14] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+[23:58:23] INFO     Running delly                                      bam.py:84
+[23:58:27] INFO     Running snpEff                                    vcf.py:108
+[23:58:28] INFO     Loading snpEff annotations                        vcf.py:144
+[23:58:29] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:58:31] INFO     Counting kmers                                  fastq.py:133
+[23:58:32] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10447it [00:00, 3338506.20it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:58:12] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:14] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+[23:58:23] INFO     Running delly                                      bam.py:84
+[23:58:27] INFO     Running snpEff                                    vcf.py:108
+[23:58:28] INFO     Loading snpEff annotations                        vcf.py:144
+[23:58:29] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:58:31] INFO     Counting kmers                                  fastq.py:133
+[23:58:32] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10447it [00:00, 3338506.20it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:58:35] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:58:37] INFO     Calculating median depth using samtools           bam.py:223
+[23:58:39] INFO     Getting missing genomic positions                 bam.py:389
+[23:58:12] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:14] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:20] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:41,  2.76s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  5.80it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 781.22it/s]
+[23:58:23] INFO     Running delly                                      bam.py:84
+[23:58:27] INFO     Running snpEff                                    vcf.py:108
+[23:58:28] INFO     Loading snpEff annotations                        vcf.py:144
+[23:58:29] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:58:31] INFO     Counting kmers                                  fastq.py:133
+[23:58:32] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10447it [00:00, 3338506.20it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:58:35] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:58:37] INFO     Calculating median depth using samtools           bam.py:223
+[23:58:39] INFO     Getting missing genomic positions                 bam.py:389
+[23:58:40] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+tbprofiler_container
+
+<INFO>	[2025-06-13 01:58:51]	Starting TBProfiler analysis for sample HCU24010_S6.
+<INFO>	[2025-06-13 01:58:51]	The inputs for the analysis are HCU24010_S6_R1.fastq.gz and HCU24010_S6_R2.fastq.gz. The output will be HCU24010_S6.json and HCU24010_S6.csv
+<INFO>	[2025-06-13 01:58:51]	Results will be stored in tbprofiler_HCU24010_S6 folder, located in /home/cgerediaga/Analysis.
+834540da8d872d68b95b2d22aef7fafb5c74e19fb2eb6856a6928aacc02012a2
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+[23:59:12] INFO     Running delly                                      bam.py:84
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+[23:59:12] INFO     Running delly                                      bam.py:84
+[23:59:18] INFO     Running snpEff                                    vcf.py:108
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+[23:59:12] INFO     Running delly                                      bam.py:84
+[23:59:18] INFO     Running snpEff                                    vcf.py:108
+[23:59:19] INFO     Loading snpEff annotations                        vcf.py:144
+[23:59:20] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:59:24] INFO     Counting kmers                                  fastq.py:133
+[23:59:25] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10738it [00:00, 2297176.19it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+[23:59:12] INFO     Running delly                                      bam.py:84
+[23:59:18] INFO     Running snpEff                                    vcf.py:108
+[23:59:19] INFO     Loading snpEff annotations                        vcf.py:144
+[23:59:20] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:59:24] INFO     Counting kmers                                  fastq.py:133
+[23:59:25] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10738it [00:00, 2297176.19it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:59:30] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:58:52] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:58:55] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:07] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:06,  4.45s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.59it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.53it/s]
+[23:59:12] INFO     Running delly                                      bam.py:84
+[23:59:18] INFO     Running snpEff                                    vcf.py:108
+[23:59:19] INFO     Loading snpEff annotations                        vcf.py:144
+[23:59:20] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:59:24] INFO     Counting kmers                                  fastq.py:133
+[23:59:25] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10738it [00:00, 2297176.19it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:59:30] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:59:33] INFO     Calculating median depth using samtools           bam.py:223
+[23:59:35] INFO     Getting missing genomic positions                 bam.py:389
+[23:59:36] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+tbprofiler_container
+
+<INFO>	[2025-06-13 01:59:44]	Starting TBProfiler analysis for sample HCU24011_S7.
+<INFO>	[2025-06-13 01:59:44]	The inputs for the analysis are HCU24011_S7_R1.fastq.gz and HCU24011_S7_R2.fastq.gz. The output will be HCU24011_S7.json and HCU24011_S7.csv
+<INFO>	[2025-06-13 01:59:44]	Results will be stored in tbprofiler_HCU24011_S7 folder, located in /home/cgerediaga/Analysis.
+4b7e48447d4cb0656a522281b56e3a750d47ae8afe21a11ada856ebbe8a4bdc0
+[23:59:45] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:59:45] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:59:46] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+[23:59:51] INFO     Running delly                                      bam.py:84
+[23:59:45] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:59:46] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+[23:59:51] INFO     Running delly                                      bam.py:84
+[23:59:53] INFO     Running snpEff                                    vcf.py:108
+[23:59:54] INFO     Loading snpEff annotations                        vcf.py:144
+[23:59:55] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:59:56] INFO     Counting kmers                                  fastq.py:133
+[23:59:58] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10917it [00:00, 3295373.64it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:59:59] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[23:59:45] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:59:46] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+[23:59:51] INFO     Running delly                                      bam.py:84
+[23:59:53] INFO     Running snpEff                                    vcf.py:108
+[23:59:54] INFO     Loading snpEff annotations                        vcf.py:144
+[23:59:55] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:59:56] INFO     Counting kmers                                  fastq.py:133
+[23:59:58] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10917it [00:00, 3295373.64it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:59:59] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:00:01] INFO     Calculating median depth using samtools           bam.py:223
+[00:00:03] INFO     Getting missing genomic positions                 bam.py:389
+[00:00:04] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+[23:59:45] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[23:59:46] INFO     Mapping to reference genome                      fastq.py:53
+[23:59:49] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:01<00:23,  1.57s/it]Calling variants: 100%|██████████| 16/16 [00:01<00:00, 10.00it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 788.20it/s]
+[23:59:51] INFO     Running delly                                      bam.py:84
+[23:59:53] INFO     Running snpEff                                    vcf.py:108
+[23:59:54] INFO     Loading snpEff annotations                        vcf.py:144
+[23:59:55] INFO     Getting genotypes for positions in bed file       bam.py:293
+[23:59:56] INFO     Counting kmers                                  fastq.py:133
+[23:59:58] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]10917it [00:00, 3295373.64it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[23:59:59] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:00:01] INFO     Calculating median depth using samtools           bam.py:223
+[00:00:03] INFO     Getting missing genomic positions                 bam.py:389
+[00:00:04] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+tbprofiler_container
+
+<INFO>	[2025-06-13 02:00:17]	Starting TBProfiler analysis for sample HMS24017_S15.
+<INFO>	[2025-06-13 02:00:17]	The inputs for the analysis are HMS24017_S15_R1.fastq.gz and HMS24017_S15_R2.fastq.gz. The output will be HMS24017_S15.json and HMS24017_S15.csv
+<INFO>	[2025-06-13 02:00:17]	Results will be stored in tbprofiler_HMS24017_S15 folder, located in /home/cgerediaga/Analysis.
+95bed246ffb62615939cac875d7ca43758c85eb01f12496f92c8eb0ca1ec8353
+[00:00:18] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:18] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:19] INFO     Mapping to reference genome                      fastq.py:53
+[00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
+[00:00:18] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:19] INFO     Mapping to reference genome                      fastq.py:53
+[00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+[00:00:27] INFO     Running delly                                      bam.py:84
+[00:00:31] INFO     Running snpEff                                    vcf.py:108
+[00:00:18] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:19] INFO     Mapping to reference genome                      fastq.py:53
+[00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+[00:00:27] INFO     Running delly                                      bam.py:84
+[00:00:31] INFO     Running snpEff                                    vcf.py:108
+[00:00:32] INFO     Loading snpEff annotations                        vcf.py:144
+[00:00:33] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:00:34] INFO     Counting kmers                                  fastq.py:133
+[00:00:36] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]9968it [00:00, 3139743.34it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:00:38] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:00:18] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:19] INFO     Mapping to reference genome                      fastq.py:53
+[00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+[00:00:27] INFO     Running delly                                      bam.py:84
+[00:00:31] INFO     Running snpEff                                    vcf.py:108
+[00:00:32] INFO     Loading snpEff annotations                        vcf.py:144
+[00:00:33] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:00:34] INFO     Counting kmers                                  fastq.py:133
+[00:00:36] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]9968it [00:00, 3139743.34it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:00:38] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:00:40] INFO     Calculating median depth using samtools           bam.py:223
+[00:00:42] INFO     Getting missing genomic positions                 bam.py:389
+[00:00:43] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+[00:00:18] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:19] INFO     Mapping to reference genome                      fastq.py:53
+[00:00:25] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:02<00:36,  2.44s/it]Calling variants: 100%|██████████| 16/16 [00:02<00:00,  6.44it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.69it/s]
+[00:00:27] INFO     Running delly                                      bam.py:84
+[00:00:31] INFO     Running snpEff                                    vcf.py:108
+[00:00:32] INFO     Loading snpEff annotations                        vcf.py:144
+[00:00:33] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:00:34] INFO     Counting kmers                                  fastq.py:133
+[00:00:36] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]9968it [00:00, 3139743.34it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:00:38] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:00:40] INFO     Calculating median depth using samtools           bam.py:223
+[00:00:42] INFO     Getting missing genomic positions                 bam.py:389
+[00:00:43] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+[00:00:50] INFO     Searching for close samples in               snp_dists.py:77
+                    /data/Analysis/tbprofiler_results_HMS24017_S                
+                    15/results/snp_diffs.db                                     
+Searching for close samples: 0it [00:00, ?it/s]Searching for close samples: 0it [00:00, ?it/s]
+[00:00:51] INFO     Finished searching for close samples in      snp_dists.py:95
+                    /data/Analysis/tbprofiler_results_HMS24017_S                
+                    15/results/snp_diffs.db. Took 0:00:00.233643                
+           INFO     Found 0 close samples                        snp_dists.py:96
+           INFO     Writing outputs                                  output.py:8
+           INFO     Writing json file:                              output.py:15
+                    /data/Analysis/tbprofiler_results_HMS24017_S15/             
+                    results/HMS24017_S15.results.json                           
+           INFO     Writing csv file:                               output.py:22
+                    /data/Analysis/tbprofiler_results_HMS24017_S15/             
+                    results/HMS24017_S15.results.csv                            
+           INFO     Profiling finished sucessfully!              tb-profiler:233
+tbprofiler_container
+
+<INFO>	[2025-06-13 02:00:57]	Starting TBProfiler analysis for sample HMS24046_S23.
+<INFO>	[2025-06-13 02:00:57]	The inputs for the analysis are HMS24046_S23_R1.fastq.gz and HMS24046_S23_R2.fastq.gz. The output will be HMS24046_S23.json and HMS24046_S23.csv
+<INFO>	[2025-06-13 02:00:57]	Results will be stored in tbprofiler_HMS24046_S23 folder, located in /home/cgerediaga/Analysis.
+90380ebd9376e583451a9e1202ee993dfcc99f2f7347d4a7e2237c9688f9191f
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[00:01:16] INFO     Running delly                                      bam.py:84
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[00:01:16] INFO     Running delly                                      bam.py:84
+[00:01:22] INFO     Running snpEff                                    vcf.py:108
+[00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[00:01:16] INFO     Running delly                                      bam.py:84
+[00:01:22] INFO     Running snpEff                                    vcf.py:108
+[00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:01:28] INFO     Counting kmers                                  fastq.py:133
+[00:01:29] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]11786it [00:00, 2215284.20it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[00:01:16] INFO     Running delly                                      bam.py:84
+[00:01:22] INFO     Running snpEff                                    vcf.py:108
+[00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:01:28] INFO     Counting kmers                                  fastq.py:133
+[00:01:29] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]11786it [00:00, 2215284.20it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:01:33] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:01:36] INFO     Calculating median depth using samtools           bam.py:223
+[00:00:57] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:00] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:11] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:04<01:02,  4.20s/it]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  5.15it/s]Calling variants: 100%|██████████| 16/16 [00:04<00:00,  3.71it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 790.19it/s]
+[00:01:16] INFO     Running delly                                      bam.py:84
+[00:01:22] INFO     Running snpEff                                    vcf.py:108
+[00:01:24] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:01:28] INFO     Counting kmers                                  fastq.py:133
+[00:01:29] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]11786it [00:00, 2215284.20it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:01:33] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:01:36] INFO     Calculating median depth using samtools           bam.py:223
+[00:01:38] INFO     Getting missing genomic positions                 bam.py:389
+[00:01:39] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+tbprofiler_container
+
+<INFO>	[2025-06-13 02:01:49]	Starting TBProfiler analysis for sample HMS24051_S27.
+<INFO>	[2025-06-13 02:01:49]	The inputs for the analysis are HMS24051_S27_R1.fastq.gz and HMS24051_S27_R2.fastq.gz. The output will be HMS24051_S27.json and HMS24051_S27.csv
+<INFO>	[2025-06-13 02:01:49]	Results will be stored in tbprofiler_HMS24051_S27 folder, located in /home/cgerediaga/Analysis.
+5d0d86abb83aa05eee6343263fa81581a1443dc9bf7bbca16fb91257aee31397
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:53] INFO     Mapping to reference genome                      fastq.py:53
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:53] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:53] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+[00:02:05] INFO     Running delly                                      bam.py:84
+[00:02:10] INFO     Running snpEff                                    vcf.py:108
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:53] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+[00:02:05] INFO     Running delly                                      bam.py:84
+[00:02:10] INFO     Running snpEff                                    vcf.py:108
+[00:02:11] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:02:14] INFO     Counting kmers                                  fastq.py:133
+[00:02:15] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]11566it [00:00, 1966090.62it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:53] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+[00:02:05] INFO     Running delly                                      bam.py:84
+[00:02:10] INFO     Running snpEff                                    vcf.py:108
+[00:02:11] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:02:14] INFO     Counting kmers                                  fastq.py:133
+[00:02:15] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]11566it [00:00, 1966090.62it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:02:19] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:02:21] INFO     Calculating median depth using samtools           bam.py:223
+[00:02:23] INFO     Getting missing genomic positions                 bam.py:389
+[00:01:50] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:01:53] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:01] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:03<00:50,  3.37s/it]Calling variants: 100%|██████████| 16/16 [00:03<00:00,  4.74it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 787.82it/s]
+[00:02:05] INFO     Running delly                                      bam.py:84
+[00:02:10] INFO     Running snpEff                                    vcf.py:108
+[00:02:11] INFO     Loading snpEff annotations                        vcf.py:144
+           INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:02:14] INFO     Counting kmers                                  fastq.py:133
+[00:02:15] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]11566it [00:00, 1966090.62it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:02:19] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:02:21] INFO     Calculating median depth using samtools           bam.py:223
+[00:02:23] INFO     Getting missing genomic positions                 bam.py:389
+[00:02:24] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+tbprofiler_container
+
+<INFO>	[2025-06-13 02:02:36]	Starting TBProfiler analysis for sample HMS24052_S28.
+<INFO>	[2025-06-13 02:02:36]	The inputs for the analysis are HMS24052_S28_R1.fastq.gz and HMS24052_S28_R2.fastq.gz. The output will be HMS24052_S28.json and HMS24052_S28.csv
+<INFO>	[2025-06-13 02:02:36]	Results will be stored in tbprofiler_HMS24052_S28 folder, located in /home/cgerediaga/Analysis.
+9b911f791c348d3f2fc0ab02d14ff981a690f04a7bc1ff21addbb22a22fdd892
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+[00:03:05] INFO     Running delly                                      bam.py:84
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+[00:03:05] INFO     Running delly                                      bam.py:84
+[00:03:15] INFO     Running snpEff                                    vcf.py:108
+[00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+[00:03:05] INFO     Running delly                                      bam.py:84
+[00:03:15] INFO     Running snpEff                                    vcf.py:108
+[00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
+[00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:03:22] INFO     Counting kmers                                  fastq.py:133
+[00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+[00:03:05] INFO     Running delly                                      bam.py:84
+[00:03:15] INFO     Running snpEff                                    vcf.py:108
+[00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
+[00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:03:22] INFO     Counting kmers                                  fastq.py:133
+[00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+[00:03:05] INFO     Running delly                                      bam.py:84
+[00:03:15] INFO     Running snpEff                                    vcf.py:108
+[00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
+[00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:03:22] INFO     Counting kmers                                  fastq.py:133
+[00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:03:30] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:03:33] INFO     Calculating median depth using samtools           bam.py:223
+[00:03:36] INFO     Getting missing genomic positions                 bam.py:389
+[00:02:36] INFO     Using ref file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.fasta                      
+           INFO     Using gff file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.gff                        
+           INFO     Using bed file:                                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.bed                        
+           INFO     Using json_db file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.dr.json                    
+           INFO     Using variables file:                              db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.variables.json             
+           INFO     Using spoligotype_spacers file:                    db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_space          
+                    rs.txt                                                      
+           INFO     Using spoligotype_annotations file:                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.spoligotype_list.          
+                    csv                                                         
+           INFO     Using bedmask file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.mask.bed                   
+           INFO     Using rules file:                                  db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.rules.yml                  
+           INFO     Using barcode file:                                db.py:645
+                    /opt/conda/share/tbprofiler/tbdb.barcode.bed                
+           INFO     Trimming reads                                   fastq.py:39
+[00:02:41] INFO     Mapping to reference genome                      fastq.py:53
+[00:02:58] INFO     Variant calling software: freebayes    variant_calling.py:56
+Calling variants:   0%|          | 0/16 [00:00<?, ?it/s]Calling variants:   6%|▋         | 1/16 [00:06<01:37,  6.50s/it]Calling variants: 100%|██████████| 16/16 [00:06<00:00,  2.43it/s]
+Indexing variants:   0%|          | 0/16 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 16/16 [00:00<00:00, 789.68it/s]
+[00:03:05] INFO     Running delly                                      bam.py:84
+[00:03:15] INFO     Running snpEff                                    vcf.py:108
+[00:03:16] INFO     Loading snpEff annotations                        vcf.py:144
+[00:03:17] INFO     Getting genotypes for positions in bed file       bam.py:293
+[00:03:22] INFO     Counting kmers                                  fastq.py:133
+[00:03:23] INFO     Looking for 3268 kmers                            kmer.py:28
+0it [00:00, ?it/s]12855it [00:00, 2135019.32it/s]
+           INFO     Calculating bamstats                              bam.py:359
+[00:03:30] INFO     Getting qc metrics for regions                    bam.py:396
+           INFO     Calculating depth in regions                       bam.py:54
+[00:03:33] INFO     Calculating median depth using samtools           bam.py:223
+[00:03:36] INFO     Getting missing genomic positions                 bam.py:389
+[00:03:37] INFO     Calculating SNP distances to look for       snp_dists.py:107
+                    closely related samples                                     
+tbprofiler_container

@@ -1,0 +1,166 @@
+NAME	CPU %	MEM USAGE / LIMIT	MEM %	TIME
+
+HCU24001_S1
+--------------------
+snippy_container	111.25%	51.79MiB / 125.4GiB	0.04%	2025-06-13 01:47:02
+snippy_container	99.85%	375.5MiB / 125.4GiB	0.29%	2025-06-13 01:47:09
+snippy_container	1637.28%	1.681GiB / 125.4GiB	1.34%	2025-06-13 01:47:15
+snippy_container	916.04%	1.351GiB / 125.4GiB	1.08%	2025-06-13 01:47:22
+snippy_container	986.75%	356.2MiB / 125.4GiB	0.28%	2025-06-13 01:47:28
+snippy_container	1591.72%	817.9MiB / 125.4GiB	0.64%	2025-06-13 01:47:35
+
+==> Start Time: 2025-06-13 01:47:02
+==> End Time: 2025-06-13 01:47:42
+==> Total Time: 00:00:40
+
+
+HCU24002_S2
+--------------------
+snippy_container	117.45%	46.82MiB / 125.4GiB	0.04%	2025-06-13 01:47:42
+snippy_container	99.85%	422.1MiB / 125.4GiB	0.33%	2025-06-13 01:47:48
+snippy_container	378.31%	642.2MiB / 125.4GiB	0.50%	2025-06-13 01:47:55
+snippy_container	100.23%	437.8MiB / 125.4GiB	0.34%	2025-06-13 01:48:02
+snippy_container	1594.97%	564.3MiB / 125.4GiB	0.44%	2025-06-13 01:48:08
+snippy_container	1584.18%	669.1MiB / 125.4GiB	0.52%	2025-06-13 01:48:15
+
+==> Start Time: 2025-06-13 01:47:42
+==> End Time: 2025-06-13 01:48:28
+==> Total Time: 00:00:46
+
+
+HCU24010_S6
+--------------------
+snippy_container	118.54%	46.71MiB / 125.4GiB	0.04%	2025-06-13 01:48:28
+snippy_container	100.21%	417.1MiB / 125.4GiB	0.32%	2025-06-13 01:48:35
+snippy_container	1621.07%	1.708GiB / 125.4GiB	1.36%	2025-06-13 01:48:41
+snippy_container	927.06%	1.538GiB / 125.4GiB	1.23%	2025-06-13 01:48:48
+snippy_container	1469.69%	431MiB / 125.4GiB	0.34%	2025-06-13 01:48:54
+snippy_container	316.96%	658.1MiB / 125.4GiB	0.51%	2025-06-13 01:49:01
+snippy_container	148.74%	325MiB / 125.4GiB	0.25%	2025-06-13 01:49:07
+
+==> Start Time: 2025-06-13 01:48:28
+==> End Time: 2025-06-13 01:49:14
+==> Total Time: 00:00:46
+
+
+HCU24011_S7
+--------------------
+snippy_container	117.66%	46.66MiB / 125.4GiB	0.04%	2025-06-13 01:49:14
+snippy_container	99.77%	429.7MiB / 125.4GiB	0.33%	2025-06-13 01:49:21
+snippy_container	1042.41%	285.4MiB / 125.4GiB	0.22%	2025-06-13 01:49:27
+snippy_container	1585.34%	441.9MiB / 125.4GiB	0.34%	2025-06-13 01:49:34
+snippy_container	1590.37%	461.3MiB / 125.4GiB	0.36%	2025-06-13 01:49:40
+
+==> Start Time: 2025-06-13 01:49:14
+==> End Time: 2025-06-13 01:49:54
+==> Total Time: 00:00:40
+
+
+HMS24017_S15
+--------------------
+snippy_container	118.58%	46.87MiB / 125.4GiB	0.04%	2025-06-13 01:49:54
+snippy_container	100.24%	445.3MiB / 125.4GiB	0.35%	2025-06-13 01:50:01
+snippy_container	847.69%	557MiB / 125.4GiB	0.43%	2025-06-13 01:50:07
+snippy_container	644.93%	290.9MiB / 125.4GiB	0.23%	2025-06-13 01:50:14
+snippy_container	1090.52%	215.1MiB / 125.4GiB	0.17%	2025-06-13 01:50:20
+
+==> Start Time: 2025-06-13 01:49:54
+==> End Time: 2025-06-13 01:50:27
+==> Total Time: 00:00:33
+
+
+HMS24046_S23
+--------------------
+snippy_container	118.39%	46.79MiB / 125.4GiB	0.04%	2025-06-13 01:50:27
+snippy_container	100.10%	424.4MiB / 125.4GiB	0.33%	2025-06-13 01:50:34
+snippy_container	1627.13%	1.676GiB / 125.4GiB	1.34%	2025-06-13 01:50:40
+snippy_container	915.24%	1.429GiB / 125.4GiB	1.14%	2025-06-13 01:50:47
+snippy_container	946.43%	302.3MiB / 125.4GiB	0.24%	2025-06-13 01:50:53
+snippy_container	1581.75%	664.4MiB / 125.4GiB	0.52%	2025-06-13 01:51:00
+snippy_container	143.91%	297.7MiB / 125.4GiB	0.23%	2025-06-13 01:51:07
+
+==> Start Time: 2025-06-13 01:50:27
+==> End Time: 2025-06-13 01:51:13
+==> Total Time: 00:00:46
+
+
+HMS24051_S27
+--------------------
+snippy_container	117.51%	46.59MiB / 125.4GiB	0.04%	2025-06-13 01:51:13
+snippy_container	99.79%	413.4MiB / 125.4GiB	0.32%	2025-06-13 01:51:20
+snippy_container	1579.97%	1.668GiB / 125.4GiB	1.33%	2025-06-13 01:51:27
+snippy_container	398.82%	94.65MiB / 125.4GiB	0.07%	2025-06-13 01:51:33
+snippy_container	569.70%	272.6MiB / 125.4GiB	0.21%	2025-06-13 01:51:40
+snippy_container	1593.64%	1011MiB / 125.4GiB	0.79%	2025-06-13 01:51:46
+
+==> Start Time: 2025-06-13 01:51:13
+==> End Time: 2025-06-13 01:51:53
+==> Total Time: 00:00:40
+
+
+HMS24052_S28
+--------------------
+snippy_container	118.09%	46.36MiB / 125.4GiB	0.04%	2025-06-13 01:51:53
+snippy_container	100.15%	409.1MiB / 125.4GiB	0.32%	2025-06-13 01:52:00
+snippy_container	1575.67%	1.71GiB / 125.4GiB	1.36%	2025-06-13 01:52:06
+snippy_container	1512.47%	2.299GiB / 125.4GiB	1.83%	2025-06-13 01:52:13
+snippy_container	919.62%	2.616GiB / 125.4GiB	2.09%	2025-06-13 01:52:19
+snippy_container	1598.53%	427.8MiB / 125.4GiB	0.33%	2025-06-13 01:52:26
+snippy_container	506.05%	875.8MiB / 125.4GiB	0.68%	2025-06-13 01:52:32
+snippy_container	1584.29%	843.3MiB / 125.4GiB	0.66%	2025-06-13 01:52:39
+snippy_container	1594.86%	1.245GiB / 125.4GiB	0.99%	2025-06-13 01:52:46
+
+==> Start Time: 2025-06-13 01:51:53
+==> End Time: 2025-06-13 01:52:59
+==> Total Time: 00:01:06
+
+
+snippy_multi
+--------------------
+snippy_container	117.98%	46.81MiB / 125.4GiB	0.04%	2025-06-13 01:52:59
+snippy_container	99.81%	431.1MiB / 125.4GiB	0.34%	2025-06-13 01:53:06
+snippy_container	1629.97%	1.659GiB / 125.4GiB	1.32%	2025-06-13 01:53:12
+snippy_container	946.30%	1.39GiB / 125.4GiB	1.11%	2025-06-13 01:53:19
+snippy_container	703.70%	412.8MiB / 125.4GiB	0.32%	2025-06-13 01:53:25
+snippy_container	100.23%	262MiB / 125.4GiB	0.20%	2025-06-13 01:53:32
+snippy_container	650.37%	863MiB / 125.4GiB	0.67%	2025-06-13 01:53:38
+snippy_container	846.37%	724.7MiB / 125.4GiB	0.56%	2025-06-13 01:53:45
+snippy_container	100.31%	377.7MiB / 125.4GiB	0.29%	2025-06-13 01:53:52
+snippy_container	273.29%	656.5MiB / 125.4GiB	0.51%	2025-06-13 01:53:58
+snippy_container	1560.90%	1.427GiB / 125.4GiB	1.14%	2025-06-13 01:54:05
+snippy_container	1561.57%	2.253GiB / 125.4GiB	1.80%	2025-06-13 01:54:11
+snippy_container	469.43%	395.1MiB / 125.4GiB	0.31%	2025-06-13 01:54:18
+snippy_container	100.25%	920.6MiB / 125.4GiB	0.72%	2025-06-13 01:54:24
+snippy_container	214.53%	786.6MiB / 125.4GiB	0.61%	2025-06-13 01:54:31
+snippy_container	1563.92%	1.072GiB / 125.4GiB	0.86%	2025-06-13 01:54:38
+snippy_container	200.87%	838.1MiB / 125.4GiB	0.65%	2025-06-13 01:54:44
+snippy_container	99.76%	683.5MiB / 125.4GiB	0.53%	2025-06-13 01:54:51
+snippy_container	1622.22%	1.335GiB / 125.4GiB	1.06%	2025-06-13 01:54:57
+snippy_container	872.14%	879.9MiB / 125.4GiB	0.69%	2025-06-13 01:55:04
+snippy_container	135.93%	809.4MiB / 125.4GiB	0.63%	2025-06-13 01:55:10
+snippy_container	0.33%	1.085GiB / 125.4GiB	0.87%	2025-06-13 01:55:17
+snippy_container	1752.86%	2.326GiB / 125.4GiB	1.86%	2025-06-13 01:55:24
+snippy_container	258.66%	1.593GiB / 125.4GiB	1.27%	2025-06-13 01:55:30
+snippy_container	1531.69%	1.077GiB / 125.4GiB	0.86%	2025-06-13 01:55:37
+snippy_container	248.96%	943.2MiB / 125.4GiB	0.73%	2025-06-13 01:55:43
+snippy_container	46.99%	1.071GiB / 125.4GiB	0.85%	2025-06-13 01:55:50
+snippy_container	1739.74%	2.526GiB / 125.4GiB	2.01%	2025-06-13 01:55:56
+snippy_container	858.47%	1.619GiB / 125.4GiB	1.29%	2025-06-13 01:56:03
+snippy_container	100.25%	1.494GiB / 125.4GiB	1.19%	2025-06-13 01:56:10
+snippy_container	244.88%	1.358GiB / 125.4GiB	1.08%	2025-06-13 01:56:16
+snippy_container	1630.93%	2.093GiB / 125.4GiB	1.67%	2025-06-13 01:56:23
+snippy_container	1641.74%	3.034GiB / 125.4GiB	2.42%	2025-06-13 01:56:29
+snippy_container	829.59%	3.643GiB / 125.4GiB	2.90%	2025-06-13 01:56:36
+
+==> Start Time: 2025-06-13 01:52:59
+==> End Time: 2025-06-13 01:57:12
+==> Total Time: 00:04:13
+
+
+snp-dists
+--------------------
+
+==> Start Time: 2025-06-13 01:57:12
+==> End Time: 2025-06-13 01:57:19
+==> Total Time: 00:00:07
+

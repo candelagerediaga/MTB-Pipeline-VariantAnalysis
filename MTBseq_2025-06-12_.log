@@ -1,0 +1,1298 @@
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 20:21:12]	You are .
+<INFO>	[2025-06-12 20:21:12]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 20:21:12]	You requested 16 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 20:21:12]	Your parameter setting is:
+<INFO>	[2025-06-12 20:21:12]	--step		TBbwa
+<INFO>	[2025-06-12 20:21:12]	--continue	0
+<INFO>	[2025-06-12 20:21:12]	--samples	NONE
+<INFO>	[2025-06-12 20:21:12]	--project	NONE
+<INFO>	[2025-06-12 20:21:12]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 20:21:12]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 20:21:12]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 20:21:12]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 20:21:12]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 20:21:12]	--minbqual	13
+<INFO>	[2025-06-12 20:21:12]	--all_vars	0
+<INFO>	[2025-06-12 20:21:12]	--snp_vars	0
+<INFO>	[2025-06-12 20:21:12]	--lowfreq_vars	0
+<INFO>	[2025-06-12 20:21:12]	--mincovf	4
+<INFO>	[2025-06-12 20:21:12]	--mincovr	4
+<INFO>	[2025-06-12 20:21:12]	--minphred20	4
+<INFO>	[2025-06-12 20:21:12]	--minfreq	75
+<INFO>	[2025-06-12 20:21:12]	--unambig	95
+<INFO>	[2025-06-12 20:21:12]	--window	12
+<INFO>	[2025-06-12 20:21:12]	--distance	12
+<INFO>	[2025-06-12 20:21:12]	--quiet		0
+
+<INFO>	[2025-06-12 20:21:12]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 20:21:12]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 20:21:12]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 20:21:12]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 20:21:12]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 20:21:12]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Bam
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Called
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Joint
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Amend
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Classification
+<INFO>	[2025-06-12 20:21:12]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 20:21:12]	### [TBbwa] selected ###
+
+<INFO>	[2025-06-12 20:21:12]	Mapping samples:
+<INFO>	[2025-06-12 20:21:12]	HCU24001_S1_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24001_S1_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24002_S2_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24002_S2_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24010_S6_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24010_S6_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24011_S7_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HCU24011_S7_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24017_S15_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24017_S15_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24046_S23_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24046_S23_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24051_S27_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24051_S27_R2.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24052_S28_R1.fastq.gz
+<INFO>	[2025-06-12 20:21:12]	HMS24052_S28_R2.fastq.gz
+
+<INFO>	[2025-06-12 20:21:12]	Start BWA mapping...
+<INFO>	[2025-06-12 20:21:12]	Found at most two files for HCU24001_S1!
+<INFO>	[2025-06-12 20:21:12]	Start BWA mapping for HCU24001_S1...
+<INFO>	[2025-06-12 20:21:12]	bwa mem -t 16 -R '@RG\tID:HCU24001_S1\tSM:HCU24001\tPL:Illumina\tLB:S1' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HCU24001_S1_R1.fastq.gz /data/Analysis/HCU24001_S1_R2.fastq.gz > /data/Analysis/Bam/HCU24001_S1.sam 2>> /data/Analysis/Bam/HCU24001_S1.bamlog
+<INFO>	[2025-06-12 20:21:25]	Finished BWA mapping for HCU24001_S1!
+<INFO>	[2025-06-12 20:21:25]	Start using samtools to convert from .sam to .bam for HCU24001_S1...
+<INFO>	[2025-06-12 20:21:25]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HCU24001_S1.bam /data/Analysis/Bam/HCU24001_S1.sam 2>> /data/Analysis/Bam/HCU24001_S1.bamlog
+<INFO>	[2025-06-12 20:21:29]	Finished file conversion for HCU24001_S1!
+<INFO>	[2025-06-12 20:21:29]	Start using samtools for sorting of HCU24001_S1...
+<INFO>	[2025-06-12 20:21:29]	samtools sort -@ 16 -T /tmp/HCU24001_S1.sorted -o /data/Analysis/Bam/HCU24001_S1.sorted.bam /data/Analysis/Bam/HCU24001_S1.bam 2>> /data/Analysis/Bam/HCU24001_S1.bamlog
+<INFO>	[2025-06-12 20:21:32]	Finished using samtools for sorting of HCU24001_S1!
+<INFO>	[2025-06-12 20:21:32]	Start using samtools for indexing of HCU24001_S1...
+<INFO>	[2025-06-12 20:21:32]	samtools index -b /data/Analysis/Bam/HCU24001_S1.sorted.bam 2>> /data/Analysis/Bam/HCU24001_S1.bamlog
+<INFO>	[2025-06-12 20:21:35]	Finished using samtools for indexing of HCU24001_S1!
+<INFO>	[2025-06-12 20:21:35]	Start removing putative PCR duplicates from HCU24001_S1...
+<INFO>	[2025-06-12 20:21:35]	samtools rmdup /data/Analysis/Bam/HCU24001_S1.sorted.bam /data/Analysis/Bam/HCU24001_S1.nodup.bam 2>> /data/Analysis/Bam/HCU24001_S1.bamlog
+<INFO>	[2025-06-12 20:22:06]	Finished removing putative PCR duplicates for HCU24001_S1!
+<INFO>	[2025-06-12 20:22:06]	Start recreating index for HCU24001_S1...
+<INFO>	[2025-06-12 20:22:06]	samtools index -b /data/Analysis/Bam/HCU24001_S1.nodup.bam 2>> /data/Analysis/Bam/HCU24001_S1.bamlog
+<INFO>	[2025-06-12 20:22:08]	Finished recreating index for HCU24001_S1!
+<INFO>	[2025-06-12 20:22:08]	Removing temporary files...
+<INFO>	[2025-06-12 20:22:09]	Finished mapping for HCU24001_S1!
+<INFO>	[2025-06-12 20:22:09]	Found at most two files for HCU24002_S2!
+<INFO>	[2025-06-12 20:22:09]	Start BWA mapping for HCU24002_S2...
+<INFO>	[2025-06-12 20:22:09]	bwa mem -t 16 -R '@RG\tID:HCU24002_S2\tSM:HCU24002\tPL:Illumina\tLB:S2' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HCU24002_S2_R1.fastq.gz /data/Analysis/HCU24002_S2_R2.fastq.gz > /data/Analysis/Bam/HCU24002_S2.sam 2>> /data/Analysis/Bam/HCU24002_S2.bamlog
+<INFO>	[2025-06-12 20:22:16]	Finished BWA mapping for HCU24002_S2!
+<INFO>	[2025-06-12 20:22:16]	Start using samtools to convert from .sam to .bam for HCU24002_S2...
+<INFO>	[2025-06-12 20:22:16]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HCU24002_S2.bam /data/Analysis/Bam/HCU24002_S2.sam 2>> /data/Analysis/Bam/HCU24002_S2.bamlog
+<INFO>	[2025-06-12 20:22:18]	Finished file conversion for HCU24002_S2!
+<INFO>	[2025-06-12 20:22:18]	Start using samtools for sorting of HCU24002_S2...
+<INFO>	[2025-06-12 20:22:18]	samtools sort -@ 16 -T /tmp/HCU24002_S2.sorted -o /data/Analysis/Bam/HCU24002_S2.sorted.bam /data/Analysis/Bam/HCU24002_S2.bam 2>> /data/Analysis/Bam/HCU24002_S2.bamlog
+<INFO>	[2025-06-12 20:22:20]	Finished using samtools for sorting of HCU24002_S2!
+<INFO>	[2025-06-12 20:22:20]	Start using samtools for indexing of HCU24002_S2...
+<INFO>	[2025-06-12 20:22:20]	samtools index -b /data/Analysis/Bam/HCU24002_S2.sorted.bam 2>> /data/Analysis/Bam/HCU24002_S2.bamlog
+<INFO>	[2025-06-12 20:22:21]	Finished using samtools for indexing of HCU24002_S2!
+<INFO>	[2025-06-12 20:22:21]	Start removing putative PCR duplicates from HCU24002_S2...
+<INFO>	[2025-06-12 20:22:21]	samtools rmdup /data/Analysis/Bam/HCU24002_S2.sorted.bam /data/Analysis/Bam/HCU24002_S2.nodup.bam 2>> /data/Analysis/Bam/HCU24002_S2.bamlog
+<INFO>	[2025-06-12 20:22:38]	Finished removing putative PCR duplicates for HCU24002_S2!
+<INFO>	[2025-06-12 20:22:38]	Start recreating index for HCU24002_S2...
+<INFO>	[2025-06-12 20:22:38]	samtools index -b /data/Analysis/Bam/HCU24002_S2.nodup.bam 2>> /data/Analysis/Bam/HCU24002_S2.bamlog
+<INFO>	[2025-06-12 20:22:39]	Finished recreating index for HCU24002_S2!
+<INFO>	[2025-06-12 20:22:39]	Removing temporary files...
+<INFO>	[2025-06-12 20:22:39]	Finished mapping for HCU24002_S2!
+<INFO>	[2025-06-12 20:22:39]	Found at most two files for HCU24010_S6!
+<INFO>	[2025-06-12 20:22:39]	Start BWA mapping for HCU24010_S6...
+<INFO>	[2025-06-12 20:22:39]	bwa mem -t 16 -R '@RG\tID:HCU24010_S6\tSM:HCU24010\tPL:Illumina\tLB:S6' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HCU24010_S6_R1.fastq.gz /data/Analysis/HCU24010_S6_R2.fastq.gz > /data/Analysis/Bam/HCU24010_S6.sam 2>> /data/Analysis/Bam/HCU24010_S6.bamlog
+<INFO>	[2025-06-12 20:22:52]	Finished BWA mapping for HCU24010_S6!
+<INFO>	[2025-06-12 20:22:52]	Start using samtools to convert from .sam to .bam for HCU24010_S6...
+<INFO>	[2025-06-12 20:22:52]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HCU24010_S6.bam /data/Analysis/Bam/HCU24010_S6.sam 2>> /data/Analysis/Bam/HCU24010_S6.bamlog
+<INFO>	[2025-06-12 20:22:57]	Finished file conversion for HCU24010_S6!
+<INFO>	[2025-06-12 20:22:57]	Start using samtools for sorting of HCU24010_S6...
+<INFO>	[2025-06-12 20:22:57]	samtools sort -@ 16 -T /tmp/HCU24010_S6.sorted -o /data/Analysis/Bam/HCU24010_S6.sorted.bam /data/Analysis/Bam/HCU24010_S6.bam 2>> /data/Analysis/Bam/HCU24010_S6.bamlog
+<INFO>	[2025-06-12 20:23:00]	Finished using samtools for sorting of HCU24010_S6!
+<INFO>	[2025-06-12 20:23:00]	Start using samtools for indexing of HCU24010_S6...
+<INFO>	[2025-06-12 20:23:00]	samtools index -b /data/Analysis/Bam/HCU24010_S6.sorted.bam 2>> /data/Analysis/Bam/HCU24010_S6.bamlog
+<INFO>	[2025-06-12 20:23:03]	Finished using samtools for indexing of HCU24010_S6!
+<INFO>	[2025-06-12 20:23:03]	Start removing putative PCR duplicates from HCU24010_S6...
+<INFO>	[2025-06-12 20:23:03]	samtools rmdup /data/Analysis/Bam/HCU24010_S6.sorted.bam /data/Analysis/Bam/HCU24010_S6.nodup.bam 2>> /data/Analysis/Bam/HCU24010_S6.bamlog
+<INFO>	[2025-06-12 20:23:36]	Finished removing putative PCR duplicates for HCU24010_S6!
+<INFO>	[2025-06-12 20:23:36]	Start recreating index for HCU24010_S6...
+<INFO>	[2025-06-12 20:23:36]	samtools index -b /data/Analysis/Bam/HCU24010_S6.nodup.bam 2>> /data/Analysis/Bam/HCU24010_S6.bamlog
+<INFO>	[2025-06-12 20:23:39]	Finished recreating index for HCU24010_S6!
+<INFO>	[2025-06-12 20:23:39]	Removing temporary files...
+<INFO>	[2025-06-12 20:23:39]	Finished mapping for HCU24010_S6!
+<INFO>	[2025-06-12 20:23:39]	Found at most two files for HCU24011_S7!
+<INFO>	[2025-06-12 20:23:39]	Start BWA mapping for HCU24011_S7...
+<INFO>	[2025-06-12 20:23:39]	bwa mem -t 16 -R '@RG\tID:HCU24011_S7\tSM:HCU24011\tPL:Illumina\tLB:S7' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HCU24011_S7_R1.fastq.gz /data/Analysis/HCU24011_S7_R2.fastq.gz > /data/Analysis/Bam/HCU24011_S7.sam 2>> /data/Analysis/Bam/HCU24011_S7.bamlog
+<INFO>	[2025-06-12 20:23:45]	Finished BWA mapping for HCU24011_S7!
+<INFO>	[2025-06-12 20:23:45]	Start using samtools to convert from .sam to .bam for HCU24011_S7...
+<INFO>	[2025-06-12 20:23:45]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HCU24011_S7.bam /data/Analysis/Bam/HCU24011_S7.sam 2>> /data/Analysis/Bam/HCU24011_S7.bamlog
+<INFO>	[2025-06-12 20:23:46]	Finished file conversion for HCU24011_S7!
+<INFO>	[2025-06-12 20:23:46]	Start using samtools for sorting of HCU24011_S7...
+<INFO>	[2025-06-12 20:23:46]	samtools sort -@ 16 -T /tmp/HCU24011_S7.sorted -o /data/Analysis/Bam/HCU24011_S7.sorted.bam /data/Analysis/Bam/HCU24011_S7.bam 2>> /data/Analysis/Bam/HCU24011_S7.bamlog
+<INFO>	[2025-06-12 20:23:47]	Finished using samtools for sorting of HCU24011_S7!
+<INFO>	[2025-06-12 20:23:47]	Start using samtools for indexing of HCU24011_S7...
+<INFO>	[2025-06-12 20:23:47]	samtools index -b /data/Analysis/Bam/HCU24011_S7.sorted.bam 2>> /data/Analysis/Bam/HCU24011_S7.bamlog
+<INFO>	[2025-06-12 20:23:48]	Finished using samtools for indexing of HCU24011_S7!
+<INFO>	[2025-06-12 20:23:48]	Start removing putative PCR duplicates from HCU24011_S7...
+<INFO>	[2025-06-12 20:23:48]	samtools rmdup /data/Analysis/Bam/HCU24011_S7.sorted.bam /data/Analysis/Bam/HCU24011_S7.nodup.bam 2>> /data/Analysis/Bam/HCU24011_S7.bamlog
+<INFO>	[2025-06-12 20:23:57]	Finished removing putative PCR duplicates for HCU24011_S7!
+<INFO>	[2025-06-12 20:23:57]	Start recreating index for HCU24011_S7...
+<INFO>	[2025-06-12 20:23:57]	samtools index -b /data/Analysis/Bam/HCU24011_S7.nodup.bam 2>> /data/Analysis/Bam/HCU24011_S7.bamlog
+<INFO>	[2025-06-12 20:23:58]	Finished recreating index for HCU24011_S7!
+<INFO>	[2025-06-12 20:23:58]	Removing temporary files...
+<INFO>	[2025-06-12 20:23:58]	Finished mapping for HCU24011_S7!
+<INFO>	[2025-06-12 20:23:58]	Found at most two files for HMS24017_S15!
+<INFO>	[2025-06-12 20:23:58]	Start BWA mapping for HMS24017_S15...
+<INFO>	[2025-06-12 20:23:58]	bwa mem -t 16 -R '@RG\tID:HMS24017_S15\tSM:HMS24017\tPL:Illumina\tLB:S15' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HMS24017_S15_R1.fastq.gz /data/Analysis/HMS24017_S15_R2.fastq.gz > /data/Analysis/Bam/HMS24017_S15.sam 2>> /data/Analysis/Bam/HMS24017_S15.bamlog
+<INFO>	[2025-06-12 20:24:04]	Finished BWA mapping for HMS24017_S15!
+<INFO>	[2025-06-12 20:24:04]	Start using samtools to convert from .sam to .bam for HMS24017_S15...
+<INFO>	[2025-06-12 20:24:04]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HMS24017_S15.bam /data/Analysis/Bam/HMS24017_S15.sam 2>> /data/Analysis/Bam/HMS24017_S15.bamlog
+<INFO>	[2025-06-12 20:24:06]	Finished file conversion for HMS24017_S15!
+<INFO>	[2025-06-12 20:24:06]	Start using samtools for sorting of HMS24017_S15...
+<INFO>	[2025-06-12 20:24:06]	samtools sort -@ 16 -T /tmp/HMS24017_S15.sorted -o /data/Analysis/Bam/HMS24017_S15.sorted.bam /data/Analysis/Bam/HMS24017_S15.bam 2>> /data/Analysis/Bam/HMS24017_S15.bamlog
+<INFO>	[2025-06-12 20:24:08]	Finished using samtools for sorting of HMS24017_S15!
+<INFO>	[2025-06-12 20:24:08]	Start using samtools for indexing of HMS24017_S15...
+<INFO>	[2025-06-12 20:24:08]	samtools index -b /data/Analysis/Bam/HMS24017_S15.sorted.bam 2>> /data/Analysis/Bam/HMS24017_S15.bamlog
+<INFO>	[2025-06-12 20:24:09]	Finished using samtools for indexing of HMS24017_S15!
+<INFO>	[2025-06-12 20:24:09]	Start removing putative PCR duplicates from HMS24017_S15...
+<INFO>	[2025-06-12 20:24:09]	samtools rmdup /data/Analysis/Bam/HMS24017_S15.sorted.bam /data/Analysis/Bam/HMS24017_S15.nodup.bam 2>> /data/Analysis/Bam/HMS24017_S15.bamlog
+<INFO>	[2025-06-12 20:24:22]	Finished removing putative PCR duplicates for HMS24017_S15!
+<INFO>	[2025-06-12 20:24:22]	Start recreating index for HMS24017_S15...
+<INFO>	[2025-06-12 20:24:22]	samtools index -b /data/Analysis/Bam/HMS24017_S15.nodup.bam 2>> /data/Analysis/Bam/HMS24017_S15.bamlog
+<INFO>	[2025-06-12 20:24:23]	Finished recreating index for HMS24017_S15!
+<INFO>	[2025-06-12 20:24:23]	Removing temporary files...
+<INFO>	[2025-06-12 20:24:23]	Finished mapping for HMS24017_S15!
+<INFO>	[2025-06-12 20:24:23]	Found at most two files for HMS24046_S23!
+<INFO>	[2025-06-12 20:24:23]	Start BWA mapping for HMS24046_S23...
+<INFO>	[2025-06-12 20:24:23]	bwa mem -t 16 -R '@RG\tID:HMS24046_S23\tSM:HMS24046\tPL:Illumina\tLB:S23' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HMS24046_S23_R1.fastq.gz /data/Analysis/HMS24046_S23_R2.fastq.gz > /data/Analysis/Bam/HMS24046_S23.sam 2>> /data/Analysis/Bam/HMS24046_S23.bamlog
+<INFO>	[2025-06-12 20:24:36]	Finished BWA mapping for HMS24046_S23!
+<INFO>	[2025-06-12 20:24:36]	Start using samtools to convert from .sam to .bam for HMS24046_S23...
+<INFO>	[2025-06-12 20:24:36]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HMS24046_S23.bam /data/Analysis/Bam/HMS24046_S23.sam 2>> /data/Analysis/Bam/HMS24046_S23.bamlog
+<INFO>	[2025-06-12 20:24:41]	Finished file conversion for HMS24046_S23!
+<INFO>	[2025-06-12 20:24:41]	Start using samtools for sorting of HMS24046_S23...
+<INFO>	[2025-06-12 20:24:41]	samtools sort -@ 16 -T /tmp/HMS24046_S23.sorted -o /data/Analysis/Bam/HMS24046_S23.sorted.bam /data/Analysis/Bam/HMS24046_S23.bam 2>> /data/Analysis/Bam/HMS24046_S23.bamlog
+<INFO>	[2025-06-12 20:24:43]	Finished using samtools for sorting of HMS24046_S23!
+<INFO>	[2025-06-12 20:24:43]	Start using samtools for indexing of HMS24046_S23...
+<INFO>	[2025-06-12 20:24:43]	samtools index -b /data/Analysis/Bam/HMS24046_S23.sorted.bam 2>> /data/Analysis/Bam/HMS24046_S23.bamlog
+<INFO>	[2025-06-12 20:24:46]	Finished using samtools for indexing of HMS24046_S23!
+<INFO>	[2025-06-12 20:24:46]	Start removing putative PCR duplicates from HMS24046_S23...
+<INFO>	[2025-06-12 20:24:46]	samtools rmdup /data/Analysis/Bam/HMS24046_S23.sorted.bam /data/Analysis/Bam/HMS24046_S23.nodup.bam 2>> /data/Analysis/Bam/HMS24046_S23.bamlog
+<INFO>	[2025-06-12 20:25:17]	Finished removing putative PCR duplicates for HMS24046_S23!
+<INFO>	[2025-06-12 20:25:17]	Start recreating index for HMS24046_S23...
+<INFO>	[2025-06-12 20:25:17]	samtools index -b /data/Analysis/Bam/HMS24046_S23.nodup.bam 2>> /data/Analysis/Bam/HMS24046_S23.bamlog
+<INFO>	[2025-06-12 20:25:20]	Finished recreating index for HMS24046_S23!
+<INFO>	[2025-06-12 20:25:20]	Removing temporary files...
+<INFO>	[2025-06-12 20:25:20]	Finished mapping for HMS24046_S23!
+<INFO>	[2025-06-12 20:25:20]	Found at most two files for HMS24051_S27!
+<INFO>	[2025-06-12 20:25:20]	Start BWA mapping for HMS24051_S27...
+<INFO>	[2025-06-12 20:25:20]	bwa mem -t 16 -R '@RG\tID:HMS24051_S27\tSM:HMS24051\tPL:Illumina\tLB:S27' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HMS24051_S27_R1.fastq.gz /data/Analysis/HMS24051_S27_R2.fastq.gz > /data/Analysis/Bam/HMS24051_S27.sam 2>> /data/Analysis/Bam/HMS24051_S27.bamlog
+<INFO>	[2025-06-12 20:25:31]	Finished BWA mapping for HMS24051_S27!
+<INFO>	[2025-06-12 20:25:31]	Start using samtools to convert from .sam to .bam for HMS24051_S27...
+<INFO>	[2025-06-12 20:25:31]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HMS24051_S27.bam /data/Analysis/Bam/HMS24051_S27.sam 2>> /data/Analysis/Bam/HMS24051_S27.bamlog
+<INFO>	[2025-06-12 20:25:35]	Finished file conversion for HMS24051_S27!
+<INFO>	[2025-06-12 20:25:35]	Start using samtools for sorting of HMS24051_S27...
+<INFO>	[2025-06-12 20:25:35]	samtools sort -@ 16 -T /tmp/HMS24051_S27.sorted -o /data/Analysis/Bam/HMS24051_S27.sorted.bam /data/Analysis/Bam/HMS24051_S27.bam 2>> /data/Analysis/Bam/HMS24051_S27.bamlog
+<INFO>	[2025-06-12 20:25:37]	Finished using samtools for sorting of HMS24051_S27!
+<INFO>	[2025-06-12 20:25:37]	Start using samtools for indexing of HMS24051_S27...
+<INFO>	[2025-06-12 20:25:37]	samtools index -b /data/Analysis/Bam/HMS24051_S27.sorted.bam 2>> /data/Analysis/Bam/HMS24051_S27.bamlog
+<INFO>	[2025-06-12 20:25:39]	Finished using samtools for indexing of HMS24051_S27!
+<INFO>	[2025-06-12 20:25:39]	Start removing putative PCR duplicates from HMS24051_S27...
+<INFO>	[2025-06-12 20:25:39]	samtools rmdup /data/Analysis/Bam/HMS24051_S27.sorted.bam /data/Analysis/Bam/HMS24051_S27.nodup.bam 2>> /data/Analysis/Bam/HMS24051_S27.bamlog
+<INFO>	[2025-06-12 20:26:05]	Finished removing putative PCR duplicates for HMS24051_S27!
+<INFO>	[2025-06-12 20:26:05]	Start recreating index for HMS24051_S27...
+<INFO>	[2025-06-12 20:26:05]	samtools index -b /data/Analysis/Bam/HMS24051_S27.nodup.bam 2>> /data/Analysis/Bam/HMS24051_S27.bamlog
+<INFO>	[2025-06-12 20:26:07]	Finished recreating index for HMS24051_S27!
+<INFO>	[2025-06-12 20:26:07]	Removing temporary files...
+<INFO>	[2025-06-12 20:26:07]	Finished mapping for HMS24051_S27!
+<INFO>	[2025-06-12 20:26:07]	Found at most two files for HMS24052_S28!
+<INFO>	[2025-06-12 20:26:07]	Start BWA mapping for HMS24052_S28...
+<INFO>	[2025-06-12 20:26:07]	bwa mem -t 16 -R '@RG\tID:HMS24052_S28\tSM:HMS24052\tPL:Illumina\tLB:S28' /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta  /data/Analysis/HMS24052_S28_R1.fastq.gz /data/Analysis/HMS24052_S28_R2.fastq.gz > /data/Analysis/Bam/HMS24052_S28.sam 2>> /data/Analysis/Bam/HMS24052_S28.bamlog
+<INFO>	[2025-06-12 20:26:25]	Finished BWA mapping for HMS24052_S28!
+<INFO>	[2025-06-12 20:26:25]	Start using samtools to convert from .sam to .bam for HMS24052_S28...
+<INFO>	[2025-06-12 20:26:25]	samtools view -@ 16 -b -T /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta -o /data/Analysis/Bam/HMS24052_S28.bam /data/Analysis/Bam/HMS24052_S28.sam 2>> /data/Analysis/Bam/HMS24052_S28.bamlog
+<INFO>	[2025-06-12 20:26:32]	Finished file conversion for HMS24052_S28!
+<INFO>	[2025-06-12 20:26:32]	Start using samtools for sorting of HMS24052_S28...
+<INFO>	[2025-06-12 20:26:32]	samtools sort -@ 16 -T /tmp/HMS24052_S28.sorted -o /data/Analysis/Bam/HMS24052_S28.sorted.bam /data/Analysis/Bam/HMS24052_S28.bam 2>> /data/Analysis/Bam/HMS24052_S28.bamlog
+<INFO>	[2025-06-12 20:26:36]	Finished using samtools for sorting of HMS24052_S28!
+<INFO>	[2025-06-12 20:26:36]	Start using samtools for indexing of HMS24052_S28...
+<INFO>	[2025-06-12 20:26:36]	samtools index -b /data/Analysis/Bam/HMS24052_S28.sorted.bam 2>> /data/Analysis/Bam/HMS24052_S28.bamlog
+<INFO>	[2025-06-12 20:26:40]	Finished using samtools for indexing of HMS24052_S28!
+<INFO>	[2025-06-12 20:26:40]	Start removing putative PCR duplicates from HMS24052_S28...
+<INFO>	[2025-06-12 20:26:40]	samtools rmdup /data/Analysis/Bam/HMS24052_S28.sorted.bam /data/Analysis/Bam/HMS24052_S28.nodup.bam 2>> /data/Analysis/Bam/HMS24052_S28.bamlog
+<INFO>	[2025-06-12 20:27:27]	Finished removing putative PCR duplicates for HMS24052_S28!
+<INFO>	[2025-06-12 20:27:27]	Start recreating index for HMS24052_S28...
+<INFO>	[2025-06-12 20:27:27]	samtools index -b /data/Analysis/Bam/HMS24052_S28.nodup.bam 2>> /data/Analysis/Bam/HMS24052_S28.bamlog
+<INFO>	[2025-06-12 20:27:31]	Finished recreating index for HMS24052_S28!
+<INFO>	[2025-06-12 20:27:31]	Removing temporary files...
+<INFO>	[2025-06-12 20:27:31]	Finished mapping for HMS24052_S28!
+<INFO>	[2025-06-12 20:27:31]	Finished BWA mapping!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 20:27:33]	You are .
+<INFO>	[2025-06-12 20:27:33]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 20:27:33]	You requested 16 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 20:27:33]	Your parameter setting is:
+<INFO>	[2025-06-12 20:27:33]	--step		TBrefine
+<INFO>	[2025-06-12 20:27:33]	--continue	0
+<INFO>	[2025-06-12 20:27:33]	--samples	NONE
+<INFO>	[2025-06-12 20:27:33]	--project	NONE
+<INFO>	[2025-06-12 20:27:33]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 20:27:33]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 20:27:33]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 20:27:33]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 20:27:33]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 20:27:33]	--minbqual	13
+<INFO>	[2025-06-12 20:27:33]	--all_vars	0
+<INFO>	[2025-06-12 20:27:33]	--snp_vars	0
+<INFO>	[2025-06-12 20:27:33]	--lowfreq_vars	0
+<INFO>	[2025-06-12 20:27:33]	--mincovf	4
+<INFO>	[2025-06-12 20:27:33]	--mincovr	4
+<INFO>	[2025-06-12 20:27:33]	--minphred20	4
+<INFO>	[2025-06-12 20:27:33]	--minfreq	75
+<INFO>	[2025-06-12 20:27:33]	--unambig	95
+<INFO>	[2025-06-12 20:27:33]	--window	12
+<INFO>	[2025-06-12 20:27:33]	--distance	12
+<INFO>	[2025-06-12 20:27:33]	--quiet		0
+
+<INFO>	[2025-06-12 20:27:33]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 20:27:33]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 20:27:33]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 20:27:33]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 20:27:33]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 20:27:33]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Bam
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Called
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Joint
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Amend
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Classification
+<INFO>	[2025-06-12 20:27:33]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 20:27:33]	### [TBrefine] selected ###
+
+<INFO>	[2025-06-12 20:27:33]	Refining mappings:
+<INFO>	[2025-06-12 20:27:33]	HCU24001_S1.bam
+<INFO>	[2025-06-12 20:27:33]	HCU24002_S2.bam
+<INFO>	[2025-06-12 20:27:33]	HCU24010_S6.bam
+<INFO>	[2025-06-12 20:27:33]	HCU24011_S7.bam
+<INFO>	[2025-06-12 20:27:33]	HMS24017_S15.bam
+<INFO>	[2025-06-12 20:27:33]	HMS24046_S23.bam
+<INFO>	[2025-06-12 20:27:33]	HMS24051_S27.bam
+<INFO>	[2025-06-12 20:27:33]	HMS24052_S28.bam
+
+<INFO>	[2025-06-12 20:27:33]	Start GATK refinement...
+<INFO>	[2025-06-12 20:27:33]	Updating log file for HCU24001_S1...
+<INFO>	[2025-06-12 20:27:33]	Start using GATK RealignerTargetCreator for HCU24001_S1...
+<INFO>	[2025-06-12 20:27:33]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24001_S1.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HCU24001_S1.gatk.intervals 2>> /data/Analysis/GATK_Bam/HCU24001_S1.gatk.bamlog
+<INFO>	[2025-06-12 20:27:38]	Finished using GATK RealignerTargetCreator for HCU24001_S1!
+<INFO>	[2025-06-12 20:27:38]	Start using GATK IndelRealigner for HCU24001_S1...
+<INFO>	[2025-06-12 20:27:38]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24001_S1.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HCU24001_S1.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HCU24001_S1.realigned.bam 2>> /data/Analysis/GATK_Bam/HCU24001_S1.gatk.bamlog
+<INFO>	[2025-06-12 20:30:22]	Finished using GATK IndelRealigner for HCU24001_S1!
+<INFO>	[2025-06-12 20:30:22]	Start using GATK BaseRecalibrator for HCU24001_S1...
+<INFO>	[2025-06-12 20:30:22]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24001_S1.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24001_S1.gatk.grp 2>> /data/Analysis/GATK_Bam/HCU24001_S1.gatk.bamlog
+<INFO>	[2025-06-12 20:31:00]	Finished using GATK BaseRecalibrator for HCU24001_S1!
+<INFO>	[2025-06-12 20:31:00]	Start using GATK PrintReads for HCU24001_S1...
+<INFO>	[2025-06-12 20:31:00]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24001_S1.realigned.bam --BQSR /data/Analysis/GATK_Bam/HCU24001_S1.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24001_S1.gatk.bam  2>> /data/Analysis/GATK_Bam/HCU24001_S1.gatk.bamlog
+<INFO>	[2025-06-12 20:33:17]	Finished using GATK PrintReads for HCU24001_S1!
+<INFO>	[2025-06-12 20:33:17]	Removing temporary files...
+<INFO>	[2025-06-12 20:33:17]	GATK refinement finished for HCU24001_S1!
+<INFO>	[2025-06-12 20:33:17]	Updating log file for HCU24002_S2...
+<INFO>	[2025-06-12 20:33:17]	Start using GATK RealignerTargetCreator for HCU24002_S2...
+<INFO>	[2025-06-12 20:33:17]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24002_S2.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HCU24002_S2.gatk.intervals 2>> /data/Analysis/GATK_Bam/HCU24002_S2.gatk.bamlog
+<INFO>	[2025-06-12 20:33:20]	Finished using GATK RealignerTargetCreator for HCU24002_S2!
+<INFO>	[2025-06-12 20:33:20]	Start using GATK IndelRealigner for HCU24002_S2...
+<INFO>	[2025-06-12 20:33:20]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24002_S2.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HCU24002_S2.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HCU24002_S2.realigned.bam 2>> /data/Analysis/GATK_Bam/HCU24002_S2.gatk.bamlog
+<INFO>	[2025-06-12 20:33:50]	Finished using GATK IndelRealigner for HCU24002_S2!
+<INFO>	[2025-06-12 20:33:50]	Start using GATK BaseRecalibrator for HCU24002_S2...
+<INFO>	[2025-06-12 20:33:50]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24002_S2.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24002_S2.gatk.grp 2>> /data/Analysis/GATK_Bam/HCU24002_S2.gatk.bamlog
+<INFO>	[2025-06-12 20:34:14]	Finished using GATK BaseRecalibrator for HCU24002_S2!
+<INFO>	[2025-06-12 20:34:14]	Start using GATK PrintReads for HCU24002_S2...
+<INFO>	[2025-06-12 20:34:14]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24002_S2.realigned.bam --BQSR /data/Analysis/GATK_Bam/HCU24002_S2.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24002_S2.gatk.bam  2>> /data/Analysis/GATK_Bam/HCU24002_S2.gatk.bamlog
+<INFO>	[2025-06-12 20:35:23]	Finished using GATK PrintReads for HCU24002_S2!
+<INFO>	[2025-06-12 20:35:23]	Removing temporary files...
+<INFO>	[2025-06-12 20:35:23]	GATK refinement finished for HCU24002_S2!
+<INFO>	[2025-06-12 20:35:23]	Updating log file for HCU24010_S6...
+<INFO>	[2025-06-12 20:35:23]	Start using GATK RealignerTargetCreator for HCU24010_S6...
+<INFO>	[2025-06-12 20:35:23]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24010_S6.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HCU24010_S6.gatk.intervals 2>> /data/Analysis/GATK_Bam/HCU24010_S6.gatk.bamlog
+<INFO>	[2025-06-12 20:35:27]	Finished using GATK RealignerTargetCreator for HCU24010_S6!
+<INFO>	[2025-06-12 20:35:27]	Start using GATK IndelRealigner for HCU24010_S6...
+<INFO>	[2025-06-12 20:35:27]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24010_S6.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HCU24010_S6.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HCU24010_S6.realigned.bam 2>> /data/Analysis/GATK_Bam/HCU24010_S6.gatk.bamlog
+<INFO>	[2025-06-12 20:38:03]	Finished using GATK IndelRealigner for HCU24010_S6!
+<INFO>	[2025-06-12 20:38:03]	Start using GATK BaseRecalibrator for HCU24010_S6...
+<INFO>	[2025-06-12 20:38:03]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24010_S6.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24010_S6.gatk.grp 2>> /data/Analysis/GATK_Bam/HCU24010_S6.gatk.bamlog
+<INFO>	[2025-06-12 20:38:43]	Finished using GATK BaseRecalibrator for HCU24010_S6!
+<INFO>	[2025-06-12 20:38:43]	Start using GATK PrintReads for HCU24010_S6...
+<INFO>	[2025-06-12 20:38:43]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24010_S6.realigned.bam --BQSR /data/Analysis/GATK_Bam/HCU24010_S6.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24010_S6.gatk.bam  2>> /data/Analysis/GATK_Bam/HCU24010_S6.gatk.bamlog
+<INFO>	[2025-06-12 20:41:14]	Finished using GATK PrintReads for HCU24010_S6!
+<INFO>	[2025-06-12 20:41:14]	Removing temporary files...
+<INFO>	[2025-06-12 20:41:14]	GATK refinement finished for HCU24010_S6!
+<INFO>	[2025-06-12 20:41:14]	Updating log file for HCU24011_S7...
+<INFO>	[2025-06-12 20:41:14]	Start using GATK RealignerTargetCreator for HCU24011_S7...
+<INFO>	[2025-06-12 20:41:14]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24011_S7.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HCU24011_S7.gatk.intervals 2>> /data/Analysis/GATK_Bam/HCU24011_S7.gatk.bamlog
+<INFO>	[2025-06-12 20:41:17]	Finished using GATK RealignerTargetCreator for HCU24011_S7!
+<INFO>	[2025-06-12 20:41:17]	Start using GATK IndelRealigner for HCU24011_S7...
+<INFO>	[2025-06-12 20:41:17]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HCU24011_S7.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HCU24011_S7.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HCU24011_S7.realigned.bam 2>> /data/Analysis/GATK_Bam/HCU24011_S7.gatk.bamlog
+<INFO>	[2025-06-12 20:41:36]	Finished using GATK IndelRealigner for HCU24011_S7!
+<INFO>	[2025-06-12 20:41:36]	Start using GATK BaseRecalibrator for HCU24011_S7...
+<INFO>	[2025-06-12 20:41:36]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24011_S7.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24011_S7.gatk.grp 2>> /data/Analysis/GATK_Bam/HCU24011_S7.gatk.bamlog
+<INFO>	[2025-06-12 20:41:49]	Finished using GATK BaseRecalibrator for HCU24011_S7!
+<INFO>	[2025-06-12 20:41:49]	Start using GATK PrintReads for HCU24011_S7...
+<INFO>	[2025-06-12 20:41:49]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HCU24011_S7.realigned.bam --BQSR /data/Analysis/GATK_Bam/HCU24011_S7.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HCU24011_S7.gatk.bam  2>> /data/Analysis/GATK_Bam/HCU24011_S7.gatk.bamlog
+<INFO>	[2025-06-12 20:42:30]	Finished using GATK PrintReads for HCU24011_S7!
+<INFO>	[2025-06-12 20:42:30]	Removing temporary files...
+<INFO>	[2025-06-12 20:42:30]	GATK refinement finished for HCU24011_S7!
+<INFO>	[2025-06-12 20:42:30]	Updating log file for HMS24017_S15...
+<INFO>	[2025-06-12 20:42:30]	Start using GATK RealignerTargetCreator for HMS24017_S15...
+<INFO>	[2025-06-12 20:42:30]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24017_S15.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HMS24017_S15.gatk.intervals 2>> /data/Analysis/GATK_Bam/HMS24017_S15.gatk.bamlog
+<INFO>	[2025-06-12 20:42:33]	Finished using GATK RealignerTargetCreator for HMS24017_S15!
+<INFO>	[2025-06-12 20:42:33]	Start using GATK IndelRealigner for HMS24017_S15...
+<INFO>	[2025-06-12 20:42:33]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24017_S15.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HMS24017_S15.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HMS24017_S15.realigned.bam 2>> /data/Analysis/GATK_Bam/HMS24017_S15.gatk.bamlog
+<INFO>	[2025-06-12 20:42:51]	Finished using GATK IndelRealigner for HMS24017_S15!
+<INFO>	[2025-06-12 20:42:51]	Start using GATK BaseRecalibrator for HMS24017_S15...
+<INFO>	[2025-06-12 20:42:51]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24017_S15.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24017_S15.gatk.grp 2>> /data/Analysis/GATK_Bam/HMS24017_S15.gatk.bamlog
+<INFO>	[2025-06-12 20:43:09]	Finished using GATK BaseRecalibrator for HMS24017_S15!
+<INFO>	[2025-06-12 20:43:09]	Start using GATK PrintReads for HMS24017_S15...
+<INFO>	[2025-06-12 20:43:09]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24017_S15.realigned.bam --BQSR /data/Analysis/GATK_Bam/HMS24017_S15.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24017_S15.gatk.bam  2>> /data/Analysis/GATK_Bam/HMS24017_S15.gatk.bamlog
+<INFO>	[2025-06-12 20:44:10]	Finished using GATK PrintReads for HMS24017_S15!
+<INFO>	[2025-06-12 20:44:10]	Removing temporary files...
+<INFO>	[2025-06-12 20:44:10]	GATK refinement finished for HMS24017_S15!
+<INFO>	[2025-06-12 20:44:10]	Updating log file for HMS24046_S23...
+<INFO>	[2025-06-12 20:44:10]	Start using GATK RealignerTargetCreator for HMS24046_S23...
+<INFO>	[2025-06-12 20:44:10]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24046_S23.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HMS24046_S23.gatk.intervals 2>> /data/Analysis/GATK_Bam/HMS24046_S23.gatk.bamlog
+<INFO>	[2025-06-12 20:44:14]	Finished using GATK RealignerTargetCreator for HMS24046_S23!
+<INFO>	[2025-06-12 20:44:14]	Start using GATK IndelRealigner for HMS24046_S23...
+<INFO>	[2025-06-12 20:44:14]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24046_S23.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HMS24046_S23.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HMS24046_S23.realigned.bam 2>> /data/Analysis/GATK_Bam/HMS24046_S23.gatk.bamlog
+<INFO>	[2025-06-12 20:46:37]	Finished using GATK IndelRealigner for HMS24046_S23!
+<INFO>	[2025-06-12 20:46:37]	Start using GATK BaseRecalibrator for HMS24046_S23...
+<INFO>	[2025-06-12 20:46:37]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24046_S23.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24046_S23.gatk.grp 2>> /data/Analysis/GATK_Bam/HMS24046_S23.gatk.bamlog
+<INFO>	[2025-06-12 20:47:16]	Finished using GATK BaseRecalibrator for HMS24046_S23!
+<INFO>	[2025-06-12 20:47:16]	Start using GATK PrintReads for HMS24046_S23...
+<INFO>	[2025-06-12 20:47:16]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24046_S23.realigned.bam --BQSR /data/Analysis/GATK_Bam/HMS24046_S23.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24046_S23.gatk.bam  2>> /data/Analysis/GATK_Bam/HMS24046_S23.gatk.bamlog
+<INFO>	[2025-06-12 20:49:39]	Finished using GATK PrintReads for HMS24046_S23!
+<INFO>	[2025-06-12 20:49:39]	Removing temporary files...
+<INFO>	[2025-06-12 20:49:39]	GATK refinement finished for HMS24046_S23!
+<INFO>	[2025-06-12 20:49:39]	Updating log file for HMS24051_S27...
+<INFO>	[2025-06-12 20:49:39]	Start using GATK RealignerTargetCreator for HMS24051_S27...
+<INFO>	[2025-06-12 20:49:39]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24051_S27.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HMS24051_S27.gatk.intervals 2>> /data/Analysis/GATK_Bam/HMS24051_S27.gatk.bamlog
+<INFO>	[2025-06-12 20:49:43]	Finished using GATK RealignerTargetCreator for HMS24051_S27!
+<INFO>	[2025-06-12 20:49:43]	Start using GATK IndelRealigner for HMS24051_S27...
+<INFO>	[2025-06-12 20:49:43]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24051_S27.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HMS24051_S27.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HMS24051_S27.realigned.bam 2>> /data/Analysis/GATK_Bam/HMS24051_S27.gatk.bamlog
+<INFO>	[2025-06-12 20:51:40]	Finished using GATK IndelRealigner for HMS24051_S27!
+<INFO>	[2025-06-12 20:51:40]	Start using GATK BaseRecalibrator for HMS24051_S27...
+<INFO>	[2025-06-12 20:51:40]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24051_S27.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24051_S27.gatk.grp 2>> /data/Analysis/GATK_Bam/HMS24051_S27.gatk.bamlog
+<INFO>	[2025-06-12 20:52:13]	Finished using GATK BaseRecalibrator for HMS24051_S27!
+<INFO>	[2025-06-12 20:52:13]	Start using GATK PrintReads for HMS24051_S27...
+<INFO>	[2025-06-12 20:52:13]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24051_S27.realigned.bam --BQSR /data/Analysis/GATK_Bam/HMS24051_S27.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24051_S27.gatk.bam  2>> /data/Analysis/GATK_Bam/HMS24051_S27.gatk.bamlog
+<INFO>	[2025-06-12 20:54:03]	Finished using GATK PrintReads for HMS24051_S27!
+<INFO>	[2025-06-12 20:54:03]	Removing temporary files...
+<INFO>	[2025-06-12 20:54:03]	GATK refinement finished for HMS24051_S27!
+<INFO>	[2025-06-12 20:54:03]	Updating log file for HMS24052_S28...
+<INFO>	[2025-06-12 20:54:03]	Start using GATK RealignerTargetCreator for HMS24052_S28...
+<INFO>	[2025-06-12 20:54:03]	gatk3 --analysis_type RealignerTargetCreator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24052_S28.bam --downsample_to_coverage 10000 --num_threads 16 --out /data/Analysis/GATK_Bam/HMS24052_S28.gatk.intervals 2>> /data/Analysis/GATK_Bam/HMS24052_S28.gatk.bamlog
+<INFO>	[2025-06-12 20:54:08]	Finished using GATK RealignerTargetCreator for HMS24052_S28!
+<INFO>	[2025-06-12 20:54:08]	Start using GATK IndelRealigner for HMS24052_S28...
+<INFO>	[2025-06-12 20:54:08]	gatk3 --analysis_type IndelRealigner --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/Bam/HMS24052_S28.bam --defaultBaseQualities 12 --targetIntervals /data/Analysis/GATK_Bam/HMS24052_S28.gatk.intervals --noOriginalAlignmentTags --out /data/Analysis/GATK_Bam/HMS24052_S28.realigned.bam 2>> /data/Analysis/GATK_Bam/HMS24052_S28.gatk.bamlog
+<INFO>	[2025-06-12 20:58:19]	Finished using GATK IndelRealigner for HMS24052_S28!
+<INFO>	[2025-06-12 20:58:19]	Start using GATK BaseRecalibrator for HMS24052_S28...
+<INFO>	[2025-06-12 20:58:19]	gatk3 --analysis_type BaseRecalibrator --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24052_S28.realigned.bam --knownSites /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf --maximum_cycle_value 600 --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24052_S28.gatk.grp 2>> /data/Analysis/GATK_Bam/HMS24052_S28.gatk.bamlog
+<INFO>	[2025-06-12 20:59:19]	Finished using GATK BaseRecalibrator for HMS24052_S28!
+<INFO>	[2025-06-12 20:59:19]	Start using GATK PrintReads for HMS24052_S28...
+<INFO>	[2025-06-12 20:59:19]	gatk3 -T --analysis_type PrintReads --reference_sequence /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta --input_file /data/Analysis/GATK_Bam/HMS24052_S28.realigned.bam --BQSR /data/Analysis/GATK_Bam/HMS24052_S28.gatk.grp --num_cpu_threads_per_data_thread 16 --out /data/Analysis/GATK_Bam/HMS24052_S28.gatk.bam  2>> /data/Analysis/GATK_Bam/HMS24052_S28.gatk.bamlog
+<INFO>	[2025-06-12 21:02:59]	Finished using GATK PrintReads for HMS24052_S28!
+<INFO>	[2025-06-12 21:02:59]	Removing temporary files...
+<INFO>	[2025-06-12 21:02:59]	GATK refinement finished for HMS24052_S28!
+<INFO>	[2025-06-12 21:02:59]	Finished GATK refinement!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 21:03:01]	You are .
+<INFO>	[2025-06-12 21:03:01]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 21:03:01]	You requested 16 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 21:03:01]	Your parameter setting is:
+<INFO>	[2025-06-12 21:03:01]	--step		TBpile
+<INFO>	[2025-06-12 21:03:01]	--continue	0
+<INFO>	[2025-06-12 21:03:01]	--samples	NONE
+<INFO>	[2025-06-12 21:03:01]	--project	NONE
+<INFO>	[2025-06-12 21:03:01]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:03:01]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:03:01]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 21:03:01]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 21:03:01]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 21:03:01]	--minbqual	13
+<INFO>	[2025-06-12 21:03:01]	--all_vars	0
+<INFO>	[2025-06-12 21:03:01]	--snp_vars	0
+<INFO>	[2025-06-12 21:03:01]	--lowfreq_vars	0
+<INFO>	[2025-06-12 21:03:01]	--mincovf	4
+<INFO>	[2025-06-12 21:03:01]	--mincovr	4
+<INFO>	[2025-06-12 21:03:01]	--minphred20	4
+<INFO>	[2025-06-12 21:03:01]	--minfreq	75
+<INFO>	[2025-06-12 21:03:01]	--unambig	95
+<INFO>	[2025-06-12 21:03:01]	--window	12
+<INFO>	[2025-06-12 21:03:01]	--distance	12
+<INFO>	[2025-06-12 21:03:01]	--quiet		0
+
+<INFO>	[2025-06-12 21:03:01]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 21:03:01]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 21:03:01]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 21:03:01]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 21:03:01]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 21:03:01]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Bam
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Called
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Joint
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Amend
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Classification
+<INFO>	[2025-06-12 21:03:01]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 21:03:01]	### [TBpile] selected ###
+
+<INFO>	[2025-06-12 21:03:01]	Creating mpileups:
+<INFO>	[2025-06-12 21:03:01]	HCU24001_S1.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HCU24002_S2.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HCU24010_S6.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HCU24011_S7.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HMS24017_S15.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HMS24046_S23.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HMS24051_S27.gatk.bam
+<INFO>	[2025-06-12 21:03:01]	HMS24052_S28.gatk.bam
+
+<INFO>	[2025-06-12 21:03:01]	Start creating .mpileup files...
+<INFO>	[2025-06-12 21:03:01]	Updating logfile for HCU24001_S1...
+<INFO>	[2025-06-12 21:03:01]	Start using samtools for creating a .mpileup file for HCU24001_S1...
+<INFO>	[2025-06-12 21:03:01]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HCU24001_S1.gatk.bam > /data/Analysis/Mpileup/HCU24001_S1.gatk.mpileup 2>> /data/Analysis/Mpileup/HCU24001_S1.gatk.mpileuplog
+<INFO>	[2025-06-12 21:03:23]	Finished using samtools for creating a .mpileup file for HCU24001_S1!
+<INFO>	[2025-06-12 21:03:23]	Updating logfile for HCU24002_S2...
+<INFO>	[2025-06-12 21:03:23]	Start using samtools for creating a .mpileup file for HCU24002_S2...
+<INFO>	[2025-06-12 21:03:23]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HCU24002_S2.gatk.bam > /data/Analysis/Mpileup/HCU24002_S2.gatk.mpileup 2>> /data/Analysis/Mpileup/HCU24002_S2.gatk.mpileuplog
+<INFO>	[2025-06-12 21:03:33]	Finished using samtools for creating a .mpileup file for HCU24002_S2!
+<INFO>	[2025-06-12 21:03:33]	Updating logfile for HCU24010_S6...
+<INFO>	[2025-06-12 21:03:33]	Start using samtools for creating a .mpileup file for HCU24010_S6...
+<INFO>	[2025-06-12 21:03:33]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HCU24010_S6.gatk.bam > /data/Analysis/Mpileup/HCU24010_S6.gatk.mpileup 2>> /data/Analysis/Mpileup/HCU24010_S6.gatk.mpileuplog
+<INFO>	[2025-06-12 21:03:56]	Finished using samtools for creating a .mpileup file for HCU24010_S6!
+<INFO>	[2025-06-12 21:03:56]	Updating logfile for HCU24011_S7...
+<INFO>	[2025-06-12 21:03:56]	Start using samtools for creating a .mpileup file for HCU24011_S7...
+<INFO>	[2025-06-12 21:03:56]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HCU24011_S7.gatk.bam > /data/Analysis/Mpileup/HCU24011_S7.gatk.mpileup 2>> /data/Analysis/Mpileup/HCU24011_S7.gatk.mpileuplog
+<INFO>	[2025-06-12 21:04:02]	Finished using samtools for creating a .mpileup file for HCU24011_S7!
+<INFO>	[2025-06-12 21:04:02]	Updating logfile for HMS24017_S15...
+<INFO>	[2025-06-12 21:04:02]	Start using samtools for creating a .mpileup file for HMS24017_S15...
+<INFO>	[2025-06-12 21:04:02]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HMS24017_S15.gatk.bam > /data/Analysis/Mpileup/HMS24017_S15.gatk.mpileup 2>> /data/Analysis/Mpileup/HMS24017_S15.gatk.mpileuplog
+<INFO>	[2025-06-12 21:04:11]	Finished using samtools for creating a .mpileup file for HMS24017_S15!
+<INFO>	[2025-06-12 21:04:11]	Updating logfile for HMS24046_S23...
+<INFO>	[2025-06-12 21:04:11]	Start using samtools for creating a .mpileup file for HMS24046_S23...
+<INFO>	[2025-06-12 21:04:11]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HMS24046_S23.gatk.bam > /data/Analysis/Mpileup/HMS24046_S23.gatk.mpileup 2>> /data/Analysis/Mpileup/HMS24046_S23.gatk.mpileuplog
+<INFO>	[2025-06-12 21:04:32]	Finished using samtools for creating a .mpileup file for HMS24046_S23!
+<INFO>	[2025-06-12 21:04:32]	Updating logfile for HMS24051_S27...
+<INFO>	[2025-06-12 21:04:32]	Start using samtools for creating a .mpileup file for HMS24051_S27...
+<INFO>	[2025-06-12 21:04:32]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HMS24051_S27.gatk.bam > /data/Analysis/Mpileup/HMS24051_S27.gatk.mpileup 2>> /data/Analysis/Mpileup/HMS24051_S27.gatk.mpileuplog
+<INFO>	[2025-06-12 21:04:50]	Finished using samtools for creating a .mpileup file for HMS24051_S27!
+<INFO>	[2025-06-12 21:04:50]	Updating logfile for HMS24052_S28...
+<INFO>	[2025-06-12 21:04:50]	Start using samtools for creating a .mpileup file for HMS24052_S28...
+<INFO>	[2025-06-12 21:04:50]	samtools mpileup -B -A -x -f /usr/local/share/mtbseq-1.1.0-0/var/ref/M._tuberculosis_H37Rv_2015-11-13.fasta /data/Analysis/GATK_Bam/HMS24052_S28.gatk.bam > /data/Analysis/Mpileup/HMS24052_S28.gatk.mpileup 2>> /data/Analysis/Mpileup/HMS24052_S28.gatk.mpileuplog
+<INFO>	[2025-06-12 21:05:23]	Finished using samtools for creating a .mpileup file for HMS24052_S28!
+<INFO>	[2025-06-12 21:05:23]	Finished creating .mpileup files!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 21:05:26]	You are .
+<INFO>	[2025-06-12 21:05:26]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 21:05:26]	You requested 16 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 21:05:26]	Your parameter setting is:
+<INFO>	[2025-06-12 21:05:26]	--step		TBlist
+<INFO>	[2025-06-12 21:05:26]	--continue	0
+<INFO>	[2025-06-12 21:05:26]	--samples	NONE
+<INFO>	[2025-06-12 21:05:26]	--project	NONE
+<INFO>	[2025-06-12 21:05:26]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:05:26]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:05:26]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 21:05:26]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 21:05:26]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 21:05:26]	--minbqual	13
+<INFO>	[2025-06-12 21:05:26]	--all_vars	0
+<INFO>	[2025-06-12 21:05:26]	--snp_vars	0
+<INFO>	[2025-06-12 21:05:26]	--lowfreq_vars	0
+<INFO>	[2025-06-12 21:05:26]	--mincovf	4
+<INFO>	[2025-06-12 21:05:26]	--mincovr	4
+<INFO>	[2025-06-12 21:05:26]	--minphred20	4
+<INFO>	[2025-06-12 21:05:26]	--minfreq	75
+<INFO>	[2025-06-12 21:05:26]	--unambig	95
+<INFO>	[2025-06-12 21:05:26]	--window	12
+<INFO>	[2025-06-12 21:05:26]	--distance	12
+<INFO>	[2025-06-12 21:05:26]	--quiet		0
+
+<INFO>	[2025-06-12 21:05:26]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 21:05:26]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 21:05:26]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 21:05:26]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 21:05:26]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 21:05:26]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Bam
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Called
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Joint
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Amend
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Classification
+<INFO>	[2025-06-12 21:05:26]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 21:05:26]	### [TBlist] selected ###
+
+<INFO>	[2025-06-12 21:05:26]	Creating position lists:
+<INFO>	[2025-06-12 21:05:26]	HCU24001_S1.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HCU24002_S2.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HCU24010_S6.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HCU24011_S7.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HMS24017_S15.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HMS24046_S23.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HMS24051_S27.gatk.mpileup
+<INFO>	[2025-06-12 21:05:26]	HMS24052_S28.gatk.mpileup
+
+<INFO>	[2025-06-12 21:05:26]	Start creating position lists...
+<INFO>	[2025-06-12 21:05:26]	Parsing reference genome M._tuberculosis_H37Rv_2015-11-13.fasta...
+<INFO>	[2025-06-12 21:05:29]	Reference genome size (bp): 4411532!
+<INFO>	[2025-06-12 21:05:29]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:05:29]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:05:29]	Start parallel processing...
+<INFO>	[2025-06-12 21:07:20]	Finished parallel processing!
+<INFO>	[2025-06-12 21:07:20]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:07:31]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:07:31]	Start creating final output file...
+<INFO>	[2025-06-12 21:07:57]	Finished creating final output file!
+<INFO>	[2025-06-12 21:07:57]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:07:57]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:07:57]	Start parallel processing...
+<INFO>	[2025-06-12 21:09:26]	Finished parallel processing!
+<INFO>	[2025-06-12 21:09:26]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:09:39]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:09:39]	Start creating final output file...
+<INFO>	[2025-06-12 21:10:07]	Finished creating final output file!
+<INFO>	[2025-06-12 21:10:07]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:10:07]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:10:07]	Start parallel processing...
+<INFO>	[2025-06-12 21:12:16]	Finished parallel processing!
+<INFO>	[2025-06-12 21:12:16]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:12:30]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:12:30]	Start creating final output file...
+<INFO>	[2025-06-12 21:13:01]	Finished creating final output file!
+<INFO>	[2025-06-12 21:13:01]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:13:01]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:13:01]	Start parallel processing...
+<INFO>	[2025-06-12 21:14:18]	Finished parallel processing!
+<INFO>	[2025-06-12 21:14:18]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:14:32]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:14:32]	Start creating final output file...
+<INFO>	[2025-06-12 21:15:03]	Finished creating final output file!
+<INFO>	[2025-06-12 21:15:03]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:15:03]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:15:03]	Start parallel processing...
+<INFO>	[2025-06-12 21:16:32]	Finished parallel processing!
+<INFO>	[2025-06-12 21:16:32]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:16:46]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:16:46]	Start creating final output file...
+<INFO>	[2025-06-12 21:17:17]	Finished creating final output file!
+<INFO>	[2025-06-12 21:17:17]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:17:17]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:17:17]	Start parallel processing...
+<INFO>	[2025-06-12 21:19:22]	Finished parallel processing!
+<INFO>	[2025-06-12 21:19:22]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:19:37]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:19:37]	Start creating final output file...
+<INFO>	[2025-06-12 21:20:10]	Finished creating final output file!
+<INFO>	[2025-06-12 21:20:10]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:20:10]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:20:10]	Start parallel processing...
+<INFO>	[2025-06-12 21:22:00]	Finished parallel processing!
+<INFO>	[2025-06-12 21:22:00]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:22:15]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:22:15]	Start creating final output file...
+<INFO>	[2025-06-12 21:22:48]	Finished creating final output file!
+<INFO>	[2025-06-12 21:22:48]	Start creating temporary output file...
+<INFO>	[2025-06-12 21:22:48]	Finished creating temporary output file!
+<INFO>	[2025-06-12 21:22:48]	Start parallel processing...
+<INFO>	[2025-06-12 21:25:20]	Finished parallel processing!
+<INFO>	[2025-06-12 21:25:20]	Start loading temporary file into hash structure...
+<INFO>	[2025-06-12 21:25:34]	Finished loading temporary file into hash structure!
+<INFO>	[2025-06-12 21:25:34]	Start creating final output file...
+<INFO>	[2025-06-12 21:26:09]	Finished creating final output file!
+<INFO>	[2025-06-12 21:26:09]	Finished creating position lists!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 21:26:22]	You are .
+<INFO>	[2025-06-12 21:26:22]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 21:26:22]	You requested 1 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 21:26:22]	Your parameter setting is:
+<INFO>	[2025-06-12 21:26:22]	--step		TBvariants
+<INFO>	[2025-06-12 21:26:22]	--continue	0
+<INFO>	[2025-06-12 21:26:22]	--samples	samples.txt
+<INFO>	[2025-06-12 21:26:22]	--project	NONE
+<INFO>	[2025-06-12 21:26:22]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:26:22]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:26:22]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 21:26:22]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 21:26:22]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 21:26:22]	--minbqual	13
+<INFO>	[2025-06-12 21:26:22]	--all_vars	0
+<INFO>	[2025-06-12 21:26:22]	--snp_vars	0
+<INFO>	[2025-06-12 21:26:22]	--lowfreq_vars	0
+<INFO>	[2025-06-12 21:26:22]	--mincovf	4
+<INFO>	[2025-06-12 21:26:22]	--mincovr	4
+<INFO>	[2025-06-12 21:26:22]	--minphred20	4
+<INFO>	[2025-06-12 21:26:22]	--minfreq	75
+<INFO>	[2025-06-12 21:26:22]	--unambig	95
+<INFO>	[2025-06-12 21:26:22]	--window	12
+<INFO>	[2025-06-12 21:26:22]	--distance	12
+<INFO>	[2025-06-12 21:26:22]	--quiet		0
+
+<INFO>	[2025-06-12 21:26:22]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 21:26:22]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 21:26:22]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 21:26:22]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 21:26:22]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 21:26:22]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Bam
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Called
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Joint
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Amend
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Classification
+<INFO>	[2025-06-12 21:26:22]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 21:26:22]	### [TBvariants] selected ###
+
+<INFO>	[2025-06-12 21:26:22]	Calling variants:
+<INFO>	[2025-06-12 21:26:22]	HCU24001_S1.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HCU24002_S2.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HCU24010_S6.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HCU24011_S7.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HMS24017_S15.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HMS24046_S23.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HMS24051_S27.gatk_position_table.tab
+<INFO>	[2025-06-12 21:26:22]	HMS24052_S28.gatk_position_table.tab
+
+<INFO>	[2025-06-12 21:26:22]	Start variant calling...
+<INFO>	[2025-06-12 21:26:22]	Start parsing M._tuberculosis_H37Rv_2015-11-13.fasta...
+<INFO>	[2025-06-12 21:26:22]	Finished parsing M._tuberculosis_H37Rv_2015-11-13.fasta!
+<INFO>	[2025-06-12 21:26:22]	Parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt...
+<INFO>	[2025-06-12 21:26:23]	Finished parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt!
+<INFO>	[2025-06-12 21:26:23]	Start parsing /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt and /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt...
+<INFO>	[2025-06-12 21:26:23]	Finished parsing /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt and /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt!
+<INFO>	[2025-06-12 21:26:23]	Start parsing HCU24001_S1.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:26:35]	Finished parsing HCU24001_S1.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:26:35]	Start calling variants from HCU24001_S1.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:27:06]	Finished calling variants from HCU24001_S1.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:27:06]	Printing:
+<INFO>	[2025-06-12 21:27:06]	HCU24001_S1.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:27:06]	HCU24001_S1.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:27:07]	Printing finished!
+<INFO>	[2025-06-12 21:27:07]	Start parsing HCU24002_S2.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:27:20]	Finished parsing HCU24002_S2.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:27:20]	Start calling variants from HCU24002_S2.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:27:55]	Finished calling variants from HCU24002_S2.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:27:55]	Printing:
+<INFO>	[2025-06-12 21:27:55]	HCU24002_S2.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:27:55]	HCU24002_S2.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:27:57]	Printing finished!
+<INFO>	[2025-06-12 21:27:57]	Start parsing HCU24010_S6.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:28:10]	Finished parsing HCU24010_S6.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:28:10]	Start calling variants from HCU24010_S6.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:28:45]	Finished calling variants from HCU24010_S6.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:28:45]	Printing:
+<INFO>	[2025-06-12 21:28:45]	HCU24010_S6.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:28:45]	HCU24010_S6.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:28:46]	Printing finished!
+<INFO>	[2025-06-12 21:28:46]	Start parsing HCU24011_S7.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:29:00]	Finished parsing HCU24011_S7.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:29:00]	Start calling variants from HCU24011_S7.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:29:36]	Finished calling variants from HCU24011_S7.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:29:36]	Printing:
+<INFO>	[2025-06-12 21:29:36]	HCU24011_S7.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:29:36]	HCU24011_S7.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:29:38]	Printing finished!
+<INFO>	[2025-06-12 21:29:38]	Start parsing HMS24017_S15.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:29:52]	Finished parsing HMS24017_S15.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:29:52]	Start calling variants from HMS24017_S15.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:30:28]	Finished calling variants from HMS24017_S15.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:30:28]	Printing:
+<INFO>	[2025-06-12 21:30:28]	HMS24017_S15.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:30:28]	HMS24017_S15.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:30:29]	Printing finished!
+<INFO>	[2025-06-12 21:30:29]	Start parsing HMS24046_S23.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:30:43]	Finished parsing HMS24046_S23.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:30:43]	Start calling variants from HMS24046_S23.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:31:19]	Finished calling variants from HMS24046_S23.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:31:19]	Printing:
+<INFO>	[2025-06-12 21:31:19]	HMS24046_S23.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:31:19]	HMS24046_S23.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:31:21]	Printing finished!
+<INFO>	[2025-06-12 21:31:21]	Start parsing HMS24051_S27.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:31:35]	Finished parsing HMS24051_S27.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:31:35]	Start calling variants from HMS24051_S27.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:32:11]	Finished calling variants from HMS24051_S27.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:32:11]	Printing:
+<INFO>	[2025-06-12 21:32:11]	HMS24051_S27.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:32:11]	HMS24051_S27.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:32:13]	Printing finished!
+<INFO>	[2025-06-12 21:32:13]	Start parsing HMS24052_S28.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:32:27]	Finished parsing HMS24052_S28.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:32:27]	Start calling variants from HMS24052_S28.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:33:04]	Finished calling variants from HMS24052_S28.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:33:04]	Printing:
+<INFO>	[2025-06-12 21:33:04]	HMS24052_S28.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:33:04]	HMS24052_S28.gatk_position_uncovered_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 21:33:05]	Printing finished!
+<INFO>	[2025-06-12 21:33:08]	Finished variant calling!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 21:33:16]	You are .
+<INFO>	[2025-06-12 21:33:16]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 21:33:16]	You requested 16 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 21:33:16]	Your parameter setting is:
+<INFO>	[2025-06-12 21:33:16]	--step		TBstats
+<INFO>	[2025-06-12 21:33:16]	--continue	0
+<INFO>	[2025-06-12 21:33:16]	--samples	NONE
+<INFO>	[2025-06-12 21:33:16]	--project	NONE
+<INFO>	[2025-06-12 21:33:16]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:33:16]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 21:33:16]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 21:33:16]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 21:33:16]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 21:33:16]	--minbqual	13
+<INFO>	[2025-06-12 21:33:16]	--all_vars	0
+<INFO>	[2025-06-12 21:33:16]	--snp_vars	0
+<INFO>	[2025-06-12 21:33:16]	--lowfreq_vars	0
+<INFO>	[2025-06-12 21:33:16]	--mincovf	4
+<INFO>	[2025-06-12 21:33:16]	--mincovr	4
+<INFO>	[2025-06-12 21:33:16]	--minphred20	4
+<INFO>	[2025-06-12 21:33:16]	--minfreq	75
+<INFO>	[2025-06-12 21:33:16]	--unambig	95
+<INFO>	[2025-06-12 21:33:16]	--window	12
+<INFO>	[2025-06-12 21:33:16]	--distance	12
+<INFO>	[2025-06-12 21:33:16]	--quiet		0
+
+<INFO>	[2025-06-12 21:33:16]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 21:33:16]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 21:33:16]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 21:33:16]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 21:33:16]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 21:33:16]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Bam
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Called
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Joint
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Amend
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Classification
+<INFO>	[2025-06-12 21:33:16]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 21:33:16]	### [TBstats] selected ###
+
+<INFO>	[2025-06-12 21:33:16]	Calculating statistics for mappings:
+<INFO>	[2025-06-12 21:33:16]	HCU24001_S1.bam
+<INFO>	[2025-06-12 21:33:16]	HCU24002_S2.bam
+<INFO>	[2025-06-12 21:33:16]	HCU24010_S6.bam
+<INFO>	[2025-06-12 21:33:16]	HCU24011_S7.bam
+<INFO>	[2025-06-12 21:33:16]	HMS24017_S15.bam
+<INFO>	[2025-06-12 21:33:16]	HMS24046_S23.bam
+<INFO>	[2025-06-12 21:33:16]	HMS24051_S27.bam
+<INFO>	[2025-06-12 21:33:16]	HMS24052_S28.bam
+
+<INFO>	[2025-06-12 21:33:16]	Start statistics calculation...
+<INFO>	[2025-06-12 21:33:16]	Start parsing M._tuberculosis_H37Rv_2015-11-13.fasta...
+<INFO>	[2025-06-12 21:33:16]	Finished parsing M._tuberculosis_H37Rv_2015-11-13.fasta!
+<INFO>	[2025-06-12 21:33:16]	Start parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt...
+<INFO>	[2025-06-12 21:33:18]	Finished parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt!
+<INFO>	[2025-06-12 21:33:18]	Start using Samtools for BWA mapping statistics of HCU24001_S1.bam...
+<INFO>	[2025-06-12 21:33:20]	Finished using Samtools for BWA mapping statistics of HCU24001_S1.bam!
+<INFO>	[2025-06-12 21:33:20]	Start parsing position list of HCU24001_S1.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:33:32]	Finished parsing position list of HCU24001_S1.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:33:32]	Start fetching variant statistics from HCU24001_S1.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:34:03]	Finished fetching variant statistics from HCU24001_S1.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:34:03]	Start preparing statistics for HCU24001_S1...
+<INFO>	[2025-06-12 21:34:15]	Finished preparing statistics for HCU24001_S1!
+<INFO>	[2025-06-12 21:34:15]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:34:15]	Start using Samtools for BWA mapping statistics of HCU24002_S2.bam...
+<INFO>	[2025-06-12 21:34:16]	Finished using Samtools for BWA mapping statistics of HCU24002_S2.bam!
+<INFO>	[2025-06-12 21:34:16]	Start parsing position list of HCU24002_S2.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:34:30]	Finished parsing position list of HCU24002_S2.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:34:30]	Start fetching variant statistics from HCU24002_S2.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:35:03]	Finished fetching variant statistics from HCU24002_S2.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:35:03]	Start preparing statistics for HCU24002_S2...
+<INFO>	[2025-06-12 21:35:18]	Finished preparing statistics for HCU24002_S2!
+<INFO>	[2025-06-12 21:35:18]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:35:18]	Start using Samtools for BWA mapping statistics of HCU24010_S6.bam...
+<INFO>	[2025-06-12 21:35:21]	Finished using Samtools for BWA mapping statistics of HCU24010_S6.bam!
+<INFO>	[2025-06-12 21:35:21]	Start parsing position list of HCU24010_S6.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:35:36]	Finished parsing position list of HCU24010_S6.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:35:36]	Start fetching variant statistics from HCU24010_S6.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:36:11]	Finished fetching variant statistics from HCU24010_S6.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:36:11]	Start preparing statistics for HCU24010_S6...
+<INFO>	[2025-06-12 21:36:28]	Finished preparing statistics for HCU24010_S6!
+<INFO>	[2025-06-12 21:36:28]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:36:28]	Start using Samtools for BWA mapping statistics of HCU24011_S7.bam...
+<INFO>	[2025-06-12 21:36:29]	Finished using Samtools for BWA mapping statistics of HCU24011_S7.bam!
+<INFO>	[2025-06-12 21:36:29]	Start parsing position list of HCU24011_S7.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:36:44]	Finished parsing position list of HCU24011_S7.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:36:44]	Start fetching variant statistics from HCU24011_S7.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:37:20]	Finished fetching variant statistics from HCU24011_S7.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:37:20]	Start preparing statistics for HCU24011_S7...
+<INFO>	[2025-06-12 21:37:37]	Finished preparing statistics for HCU24011_S7!
+<INFO>	[2025-06-12 21:37:37]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:37:37]	Start using Samtools for BWA mapping statistics of HMS24017_S15.bam...
+<INFO>	[2025-06-12 21:37:38]	Finished using Samtools for BWA mapping statistics of HMS24017_S15.bam!
+<INFO>	[2025-06-12 21:37:38]	Start parsing position list of HMS24017_S15.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:37:53]	Finished parsing position list of HMS24017_S15.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:37:53]	Start fetching variant statistics from HMS24017_S15.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:38:29]	Finished fetching variant statistics from HMS24017_S15.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:38:29]	Start preparing statistics for HMS24017_S15...
+<INFO>	[2025-06-12 21:38:46]	Finished preparing statistics for HMS24017_S15!
+<INFO>	[2025-06-12 21:38:46]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:38:46]	Start using Samtools for BWA mapping statistics of HMS24046_S23.bam...
+<INFO>	[2025-06-12 21:38:49]	Finished using Samtools for BWA mapping statistics of HMS24046_S23.bam!
+<INFO>	[2025-06-12 21:38:49]	Start parsing position list of HMS24046_S23.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:39:05]	Finished parsing position list of HMS24046_S23.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:39:05]	Start fetching variant statistics from HMS24046_S23.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:39:41]	Finished fetching variant statistics from HMS24046_S23.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:39:41]	Start preparing statistics for HMS24046_S23...
+<INFO>	[2025-06-12 21:39:58]	Finished preparing statistics for HMS24046_S23!
+<INFO>	[2025-06-12 21:39:58]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:39:58]	Start using Samtools for BWA mapping statistics of HMS24051_S27.bam...
+<INFO>	[2025-06-12 21:40:00]	Finished using Samtools for BWA mapping statistics of HMS24051_S27.bam!
+<INFO>	[2025-06-12 21:40:00]	Start parsing position list of HMS24051_S27.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:40:16]	Finished parsing position list of HMS24051_S27.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:40:16]	Start fetching variant statistics from HMS24051_S27.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:40:52]	Finished fetching variant statistics from HMS24051_S27.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:40:52]	Start preparing statistics for HMS24051_S27...
+<INFO>	[2025-06-12 21:41:09]	Finished preparing statistics for HMS24051_S27!
+<INFO>	[2025-06-12 21:41:09]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:41:09]	Start using Samtools for BWA mapping statistics of HMS24052_S28.bam...
+<INFO>	[2025-06-12 21:41:13]	Finished using Samtools for BWA mapping statistics of HMS24052_S28.bam!
+<INFO>	[2025-06-12 21:41:13]	Start parsing position list of HMS24052_S28.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:41:29]	Finished parsing position list of HMS24052_S28.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:41:29]	Start fetching variant statistics from HMS24052_S28.gatk_position_table.tab...
+<INFO>	[2025-06-12 21:42:05]	Finished fetching variant statistics from HMS24052_S28.gatk_position_table.tab!
+<INFO>	[2025-06-12 21:42:05]	Start preparing statistics for HMS24052_S28...
+<INFO>	[2025-06-12 21:42:23]	Finished preparing statistics for HMS24052_S28!
+<INFO>	[2025-06-12 21:42:23]	Start printing statistics into Mapping_and_Variant_Statistics.tab...
+<INFO>	[2025-06-12 21:42:24]	Finished printing statistics into Mapping_and_Variant_Statistics.tab!
+<INFO>	[2025-06-12 21:42:24]	Finished statistics calculation!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 23:39:29]	You are .
+<INFO>	[2025-06-12 23:39:29]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 23:39:29]	You requested 1 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 23:39:29]	Your parameter setting is:
+<INFO>	[2025-06-12 23:39:29]	--step		TBstrains
+<INFO>	[2025-06-12 23:39:29]	--continue	0
+<INFO>	[2025-06-12 23:39:29]	--samples	NONE
+<INFO>	[2025-06-12 23:39:29]	--project	NONE
+<INFO>	[2025-06-12 23:39:29]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:39:29]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:39:29]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 23:39:29]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 23:39:29]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 23:39:29]	--minbqual	13
+<INFO>	[2025-06-12 23:39:29]	--all_vars	0
+<INFO>	[2025-06-12 23:39:29]	--snp_vars	0
+<INFO>	[2025-06-12 23:39:29]	--lowfreq_vars	0
+<INFO>	[2025-06-12 23:39:29]	--mincovf	4
+<INFO>	[2025-06-12 23:39:29]	--mincovr	4
+<INFO>	[2025-06-12 23:39:29]	--minphred20	4
+<INFO>	[2025-06-12 23:39:29]	--minfreq	75
+<INFO>	[2025-06-12 23:39:29]	--unambig	95
+<INFO>	[2025-06-12 23:39:29]	--window	12
+<INFO>	[2025-06-12 23:39:29]	--distance	12
+<INFO>	[2025-06-12 23:39:29]	--quiet		0
+
+<INFO>	[2025-06-12 23:39:29]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 23:39:29]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 23:39:29]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 23:39:29]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 23:39:29]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 23:39:29]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Bam
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Called
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Joint
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Amend
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Classification
+<INFO>	[2025-06-12 23:39:29]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 23:39:29]	### [TBstrains] selected ###
+
+<INFO>	[2025-06-12 23:39:29]	Calling strains:
+<INFO>	[2025-06-12 23:39:29]	HCU24001_S1.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HCU24002_S2.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HCU24010_S6.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HCU24011_S7.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HMS24017_S15.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HMS24046_S23.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HMS24051_S27.gatk_position_table.tab
+<INFO>	[2025-06-12 23:39:29]	HMS24052_S28.gatk_position_table.tab
+
+<INFO>	[2025-06-12 23:39:29]	Start strain call...
+<INFO>	[2025-06-12 23:39:29]	Start parsing M._tuberculosis_H37Rv_2015-11-13.fasta...
+<INFO>	[2025-06-12 23:39:29]	Finished parsing M._tuberculosis_H37Rv_2015-11-13.fasta!
+<INFO>	[2025-06-12 23:39:29]	Start parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt...
+<INFO>	[2025-06-12 23:39:31]	Finished parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt!
+<INFO>	[2025-06-12 23:39:31]	Start loading classification schemes...
+<INFO>	[2025-06-12 23:39:31]	Finsihed loading classification schemes!
+<INFO>	[2025-06-12 23:39:31]	Start combining classification schemes...
+<INFO>	[2025-06-12 23:39:31]	Finished combining classification schemes!
+<INFO>	[2025-06-12 23:39:31]	Start writing Strain_Classification.tab...
+<INFO>	[2025-06-12 23:39:31]	Finished writing Strain_Classification.tab!
+<INFO>	[2025-06-12 23:39:31]	Start parsing HCU24001_S1.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:39:46]	Finished parsing HCU24001_S1.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:39:46]	Start fetching variants for HCU24001_S1...
+<INFO>	[2025-06-12 23:39:47]	Finished fetching variants for HCU24001_S1!
+<INFO>	[2025-06-12 23:39:47]	Start writing lineage result for HCU24001_S1...
+<INFO>	[2025-06-12 23:39:47]	Finished writing lineage result for HCU24001_S1!
+<INFO>	[2025-06-12 23:39:47]	Start parsing HCU24002_S2.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:40:04]	Finished parsing HCU24002_S2.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:40:04]	Start fetching variants for HCU24002_S2...
+<INFO>	[2025-06-12 23:40:05]	Finished fetching variants for HCU24002_S2!
+<INFO>	[2025-06-12 23:40:05]	Start writing lineage result for HCU24002_S2...
+<INFO>	[2025-06-12 23:40:05]	Finished writing lineage result for HCU24002_S2!
+<INFO>	[2025-06-12 23:40:05]	Start parsing HCU24010_S6.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:40:23]	Finished parsing HCU24010_S6.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:40:23]	Start fetching variants for HCU24010_S6...
+<INFO>	[2025-06-12 23:40:24]	Finished fetching variants for HCU24010_S6!
+<INFO>	[2025-06-12 23:40:24]	Start writing lineage result for HCU24010_S6...
+<INFO>	[2025-06-12 23:40:24]	Finished writing lineage result for HCU24010_S6!
+<INFO>	[2025-06-12 23:40:24]	Start parsing HCU24011_S7.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:40:41]	Finished parsing HCU24011_S7.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:40:41]	Start fetching variants for HCU24011_S7...
+<INFO>	[2025-06-12 23:40:43]	Finished fetching variants for HCU24011_S7!
+<INFO>	[2025-06-12 23:40:43]	Start writing lineage result for HCU24011_S7...
+<INFO>	[2025-06-12 23:40:43]	Finished writing lineage result for HCU24011_S7!
+<INFO>	[2025-06-12 23:40:43]	Start parsing HMS24017_S15.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:41:01]	Finished parsing HMS24017_S15.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:41:01]	Start fetching variants for HMS24017_S15...
+<INFO>	[2025-06-12 23:41:02]	Finished fetching variants for HMS24017_S15!
+<INFO>	[2025-06-12 23:41:02]	Start writing lineage result for HMS24017_S15...
+<INFO>	[2025-06-12 23:41:02]	Finished writing lineage result for HMS24017_S15!
+<INFO>	[2025-06-12 23:41:02]	Start parsing HMS24046_S23.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:41:20]	Finished parsing HMS24046_S23.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:41:20]	Start fetching variants for HMS24046_S23...
+<INFO>	[2025-06-12 23:41:21]	Finished fetching variants for HMS24046_S23!
+<INFO>	[2025-06-12 23:41:21]	Start writing lineage result for HMS24046_S23...
+<INFO>	[2025-06-12 23:41:21]	Finished writing lineage result for HMS24046_S23!
+<INFO>	[2025-06-12 23:41:21]	Start parsing HMS24051_S27.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:41:39]	Finished parsing HMS24051_S27.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:41:39]	Start fetching variants for HMS24051_S27...
+<INFO>	[2025-06-12 23:41:40]	Finished fetching variants for HMS24051_S27!
+<INFO>	[2025-06-12 23:41:40]	Start writing lineage result for HMS24051_S27...
+<INFO>	[2025-06-12 23:41:40]	Finished writing lineage result for HMS24051_S27!
+<INFO>	[2025-06-12 23:41:40]	Start parsing HMS24052_S28.gatk_position_table.tab...
+<INFO>	[2025-06-12 23:41:58]	Finished parsing HMS24052_S28.gatk_position_table.tab!
+<INFO>	[2025-06-12 23:41:58]	Start fetching variants for HMS24052_S28...
+<INFO>	[2025-06-12 23:41:59]	Finished fetching variants for HMS24052_S28!
+<INFO>	[2025-06-12 23:41:59]	Start writing lineage result for HMS24052_S28...
+<INFO>	[2025-06-12 23:41:59]	Finished writing lineage result for HMS24052_S28!
+<INFO>	[2025-06-12 23:42:01]	Finished strain call!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 23:42:07]	You are .
+<INFO>	[2025-06-12 23:42:07]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 23:42:07]	You requested 1 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 23:42:07]	Your parameter setting is:
+<INFO>	[2025-06-12 23:42:07]	--step		TBjoin
+<INFO>	[2025-06-12 23:42:07]	--continue	0
+<INFO>	[2025-06-12 23:42:07]	--samples	samples.txt
+<INFO>	[2025-06-12 23:42:07]	--project	GenomicAnalysis
+<INFO>	[2025-06-12 23:42:07]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:42:07]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:42:07]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 23:42:07]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 23:42:07]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 23:42:07]	--minbqual	13
+<INFO>	[2025-06-12 23:42:07]	--all_vars	0
+<INFO>	[2025-06-12 23:42:07]	--snp_vars	0
+<INFO>	[2025-06-12 23:42:07]	--lowfreq_vars	0
+<INFO>	[2025-06-12 23:42:07]	--mincovf	4
+<INFO>	[2025-06-12 23:42:07]	--mincovr	4
+<INFO>	[2025-06-12 23:42:07]	--minphred20	4
+<INFO>	[2025-06-12 23:42:07]	--minfreq	75
+<INFO>	[2025-06-12 23:42:07]	--unambig	95
+<INFO>	[2025-06-12 23:42:07]	--window	12
+<INFO>	[2025-06-12 23:42:07]	--distance	12
+<INFO>	[2025-06-12 23:42:07]	--quiet		0
+
+<INFO>	[2025-06-12 23:42:07]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 23:42:07]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 23:42:07]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 23:42:07]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 23:42:07]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 23:42:07]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Bam
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Called
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Joint
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Amend
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Classification
+<INFO>	[2025-06-12 23:42:07]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 23:42:07]	### [TBjoin] selected ###
+
+<INFO>	[2025-06-12 23:42:07]	Found HMS24051_S27.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HCU24001_S1.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HMS24046_S23.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HMS24052_S28.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HCU24011_S7.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HCU24010_S6.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HMS24017_S15.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+<INFO>	[2025-06-12 23:42:07]	Found HCU24002_S2.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab! Using file for joint analysis...
+
+<INFO>	[2025-06-12 23:42:07]	Creating a joint variant table from:
+<INFO>	[2025-06-12 23:42:07]	HCU24001_S1.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HCU24002_S2.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HCU24010_S6.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HCU24011_S7.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HMS24017_S15.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HMS24046_S23.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HMS24051_S27.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+<INFO>	[2025-06-12 23:42:07]	HMS24052_S28.gatk_position_variants_cf4_cr4_fr75_ph4_outmode000.tab
+
+<INFO>	[2025-06-12 23:42:07]	Start creating joint variant table...
+<INFO>	[2025-06-12 23:42:07]	Start parsing M._tuberculosis_H37Rv_2015-11-13.fasta...
+<INFO>	[2025-06-12 23:42:07]	Finished parsing M._tuberculosis_H37Rv_2015-11-13.fasta!
+<INFO>	[2025-06-12 23:42:11]	Start parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt...
+<INFO>	[2025-06-12 23:42:13]	Finished parsing M._tuberculosis_H37Rv_2015-11-13_genes.txt...
+<INFO>	[2025-06-12 23:42:13]	Parsing variant files...
+<INFO>	[2025-06-12 23:42:13]	Finished parsing variant files!
+<INFO>	[2025-06-12 23:42:13]	Start printing joint variant file scaffold...
+<INFO>	[2025-06-12 23:42:13]	Finished printing joint variant file scaffold!
+<INFO>	[2025-06-12 23:42:13]	Start parsing position lists, extend called variants and complete joint variant list...
+<INFO>	[2025-06-12 23:46:09]	Finished parsing position lists, extend called variants and complete joint variant list!
+<INFO>	[2025-06-12 23:46:11]	Start printing coverage breadth output...
+<INFO>	[2025-06-12 23:46:40]	Finished printing coverage breadth output!
+<INFO>	[2025-06-12 23:46:43]	Finished creating joint variant table!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 23:46:50]	You are .
+<INFO>	[2025-06-12 23:46:50]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 23:46:50]	You requested 1 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 23:46:50]	Your parameter setting is:
+<INFO>	[2025-06-12 23:46:50]	--step		TBamend
+<INFO>	[2025-06-12 23:46:50]	--continue	0
+<INFO>	[2025-06-12 23:46:50]	--samples	samples.txt
+<INFO>	[2025-06-12 23:46:50]	--project	GenomicAnalysis
+<INFO>	[2025-06-12 23:46:50]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:46:50]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:46:50]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 23:46:50]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 23:46:50]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 23:46:50]	--minbqual	13
+<INFO>	[2025-06-12 23:46:50]	--all_vars	0
+<INFO>	[2025-06-12 23:46:50]	--snp_vars	0
+<INFO>	[2025-06-12 23:46:50]	--lowfreq_vars	0
+<INFO>	[2025-06-12 23:46:50]	--mincovf	4
+<INFO>	[2025-06-12 23:46:50]	--mincovr	4
+<INFO>	[2025-06-12 23:46:50]	--minphred20	4
+<INFO>	[2025-06-12 23:46:50]	--minfreq	75
+<INFO>	[2025-06-12 23:46:50]	--unambig	95
+<INFO>	[2025-06-12 23:46:50]	--window	12
+<INFO>	[2025-06-12 23:46:50]	--distance	12
+<INFO>	[2025-06-12 23:46:50]	--quiet		0
+
+<INFO>	[2025-06-12 23:46:50]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 23:46:50]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 23:46:50]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 23:46:50]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 23:46:50]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 23:46:50]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Bam
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Called
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Joint
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Amend
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Classification
+<INFO>	[2025-06-12 23:46:50]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 23:46:50]	### [TBamend] selected ###
+
+<INFO>	[2025-06-12 23:46:50]	Amending joint variant table:
+<INFO>	[2025-06-12 23:46:50]	GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8.tab
+
+<INFO>	[2025-06-12 23:46:50]	Start amending joint variant table...
+<INFO>	[2025-06-12 23:46:50]	Start parsing /usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt..
+<INFO>	[2025-06-12 23:46:50]	Finished parsing /usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt!
+<INFO>	[2025-06-12 23:46:50]	Start parsing /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt and /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt..
+<INFO>	[2025-06-12 23:46:50]	Finished parsing /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt and /usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt!
+<INFO>	[2025-06-12 23:46:50]	Start creating GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo.tab with window length 12...
+<INFO>	[2025-06-12 23:46:50]	Finished creating GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo.tab with window length 12!
+<INFO>	[2025-06-12 23:46:50]	Finished amending joint variant table!
+
+
+MTBseq 1.1.0 - Copyright (C) 2018   Thomas A. Kohl, Robin Koch, Christian Utpatel,
+                              Maria Rosaria De Filippo, Viola Schleusener,
+                              Patrick Beckert, Daniela M. Cirillo, Stefan Niemann
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+
+
+<INFO>	[2025-06-12 23:46:56]	You are .
+<INFO>	[2025-06-12 23:46:56]	Your current working directory is: /data/Analysis
+<INFO>	[2025-06-12 23:46:56]	You requested 16 thread(s) for the pipeline.
+
+<INFO>	[2025-06-12 23:46:56]	Your parameter setting is:
+<INFO>	[2025-06-12 23:46:56]	--step		TBgroups
+<INFO>	[2025-06-12 23:46:56]	--continue	0
+<INFO>	[2025-06-12 23:46:56]	--samples	samples.txt
+<INFO>	[2025-06-12 23:46:56]	--project	GenomicAnalysis
+<INFO>	[2025-06-12 23:46:56]	--resilist	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:46:56]	--intregions	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Extended_Resistance_Mediating.txt
+<INFO>	[2025-06-12 23:46:56]	--categories	/usr/local/share/mtbseq-1.1.0-0/var/cat/MTB_Gene_Categories.txt
+<INFO>	[2025-06-12 23:46:56]	--basecalib	/usr/local/share/mtbseq-1.1.0-0/var/res/MTB_Base_Calibration_List.vcf
+<INFO>	[2025-06-12 23:46:56]	--ref		M._tuberculosis_H37Rv_2015-11-13.fasta
+<INFO>	[2025-06-12 23:46:56]	--minbqual	13
+<INFO>	[2025-06-12 23:46:56]	--all_vars	0
+<INFO>	[2025-06-12 23:46:56]	--snp_vars	0
+<INFO>	[2025-06-12 23:46:56]	--lowfreq_vars	0
+<INFO>	[2025-06-12 23:46:56]	--mincovf	4
+<INFO>	[2025-06-12 23:46:56]	--mincovr	4
+<INFO>	[2025-06-12 23:46:56]	--minphred20	4
+<INFO>	[2025-06-12 23:46:56]	--minfreq	75
+<INFO>	[2025-06-12 23:46:56]	--unambig	95
+<INFO>	[2025-06-12 23:46:56]	--window	12
+<INFO>	[2025-06-12 23:46:56]	--distance	12
+<INFO>	[2025-06-12 23:46:56]	--quiet		0
+
+<INFO>	[2025-06-12 23:46:56]	The following programs will be used, if necessary:
+<INFO>	[2025-06-12 23:46:56]	/usr/local/share/mtbseq-1.1.0-0/opt/bwa_0.7.17
+<INFO>	[2025-06-12 23:46:56]	/usr/local/share/mtbseq-1.1.0-0/opt/samtools_1.6
+<INFO>	[2025-06-12 23:46:56]	/usr/local/share/mtbseq-1.1.0-0/opt/picard_2.17.0
+<INFO>	[2025-06-12 23:46:56]	/usr/local/share/mtbseq-1.1.0-0/opt/GenomeAnalysisTK_3.8
+
+<INFO>	[2025-06-12 23:46:56]	The following directories will be used, if necessary:
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Bam
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/GATK_Bam
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Mpileup
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Position_Tables
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Called
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Joint
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Amend
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Classification
+<INFO>	[2025-06-12 23:46:56]	/data/Analysis/Groups
+
+<INFO>	[2025-06-12 23:46:56]	### [TBgroups] selected ###
+
+<INFO>	[2025-06-12 23:46:56]	Calling groups from:
+<INFO>	[2025-06-12 23:46:56]	GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab
+
+<INFO>	[2025-06-12 23:46:56]	Start group calling...
+<INFO>	[2025-06-12 23:46:56]	Start parsing GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab...
+<INFO>	[2025-06-12 23:46:56]	Finished parsing GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab!
+<INFO>	[2025-06-12 23:46:56]	Start building distance matrix for GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab...
+<INFO>	[2025-06-12 23:46:57]	Finished building distance matrix for GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab!
+<INFO>	[2025-06-12 23:46:57]	Start calling groups for GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab...
+<INFO>	[2025-06-12 23:46:57]	Finished calling groups for GenomicAnalysis_joint_cf4_cr4_fr75_ph4_samples8_amended_u95_phylo_w12.tab!
+<INFO>	[2025-06-12 23:46:57]	Finished group calling!

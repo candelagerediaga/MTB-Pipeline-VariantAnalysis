@@ -1,0 +1,159 @@
+NAME	CPU %	MEM USAGE / LIMIT	MEM %	TIME
+
+HCU24001_S1_R1.fastq.gz
+--------------------
+fastqc_container	206.93%	159.2MiB / 125.4GiB	0.12%	2025-06-12 21:46:11
+fastqc_container	107.70%	448.3MiB / 125.4GiB	0.35%	2025-06-12 21:46:17
+
+==> Start Time: 2025-06-12 21:46:11
+==> End Time: 2025-06-12 21:46:30
+==> Total Time: 00:00:19
+
+
+HCU24001_S1_R2.fastq.gz
+--------------------
+fastqc_container	210.98%	242.5MiB / 125.4GiB	0.19%	2025-06-12 21:46:34
+fastqc_container	99.11%	436.4MiB / 125.4GiB	0.34%	2025-06-12 21:46:40
+
+==> Start Time: 2025-06-12 21:46:34
+==> End Time: 2025-06-12 21:46:53
+==> Total Time: 00:00:19
+
+
+HCU24002_S2_R1.fastq.gz
+--------------------
+fastqc_container	218.24%	178.4MiB / 125.4GiB	0.14%	2025-06-12 21:46:55
+fastqc_container	98.01%	466.9MiB / 125.4GiB	0.36%	2025-06-12 21:47:02
+
+==> Start Time: 2025-06-12 21:46:55
+==> End Time: 2025-06-12 21:47:08
+==> Total Time: 00:00:13
+
+
+HCU24002_S2_R2.fastq.gz
+--------------------
+fastqc_container	216.57%	168.4MiB / 125.4GiB	0.13%	2025-06-12 21:47:11
+fastqc_container	108.93%	438.2MiB / 125.4GiB	0.34%	2025-06-12 21:47:17
+
+==> Start Time: 2025-06-12 21:47:11
+==> End Time: 2025-06-12 21:47:24
+==> Total Time: 00:00:13
+
+
+HCU24010_S6_R1.fastq.gz
+--------------------
+fastqc_container	207.07%	238.3MiB / 125.4GiB	0.19%	2025-06-12 21:47:28
+fastqc_container	99.77%	453.5MiB / 125.4GiB	0.35%	2025-06-12 21:47:34
+
+==> Start Time: 2025-06-12 21:47:28
+==> End Time: 2025-06-12 21:47:46
+==> Total Time: 00:00:18
+
+
+HCU24010_S6_R2.fastq.gz
+--------------------
+fastqc_container	208.40%	162.8MiB / 125.4GiB	0.13%	2025-06-12 21:47:50
+fastqc_container	105.39%	432.1MiB / 125.4GiB	0.34%	2025-06-12 21:47:57
+
+==> Start Time: 2025-06-12 21:47:50
+==> End Time: 2025-06-12 21:48:10
+==> Total Time: 00:00:20
+
+
+HCU24011_S7_R1.fastq.gz
+--------------------
+fastqc_container	198.48%	186.6MiB / 125.4GiB	0.15%	2025-06-12 21:48:11
+
+==> Start Time: 2025-06-12 21:48:11
+==> End Time: 2025-06-12 21:48:18
+==> Total Time: 00:00:07
+
+
+HCU24011_S7_R2.fastq.gz
+--------------------
+fastqc_container	207.09%	168.2MiB / 125.4GiB	0.13%	2025-06-12 21:48:19
+
+==> Start Time: 2025-06-12 21:48:19
+==> End Time: 2025-06-12 21:48:25
+==> Total Time: 00:00:06
+
+
+HMS24017_S15_R1.fastq.gz
+--------------------
+fastqc_container	196.33%	177.9MiB / 125.4GiB	0.14%	2025-06-12 21:48:27
+
+==> Start Time: 2025-06-12 21:48:27
+==> End Time: 2025-06-12 21:48:40
+==> Total Time: 00:00:13
+
+
+HMS24017_S15_R2.fastq.gz
+--------------------
+fastqc_container	214.93%	180.2MiB / 125.4GiB	0.14%	2025-06-12 21:48:42
+
+==> Start Time: 2025-06-12 21:48:42
+==> End Time: 2025-06-12 21:48:55
+==> Total Time: 00:00:13
+
+
+HMS24046_S23_R1.fastq.gz
+--------------------
+fastqc_container	201.60%	170.8MiB / 125.4GiB	0.13%	2025-06-12 21:48:58
+fastqc_container	105.72%	444.5MiB / 125.4GiB	0.35%	2025-06-12 21:49:05
+
+==> Start Time: 2025-06-12 21:48:58
+==> End Time: 2025-06-12 21:49:18
+==> Total Time: 00:00:20
+
+
+HMS24046_S23_R2.fastq.gz
+--------------------
+fastqc_container	204.84%	180.9MiB / 125.4GiB	0.14%	2025-06-12 21:49:22
+fastqc_container	99.30%	431.8MiB / 125.4GiB	0.34%	2025-06-12 21:49:28
+
+==> Start Time: 2025-06-12 21:49:22
+==> End Time: 2025-06-12 21:49:42
+==> Total Time: 00:00:20
+
+
+HMS24051_S27_R1.fastq.gz
+--------------------
+fastqc_container	200.84%	180MiB / 125.4GiB	0.14%	2025-06-12 21:49:44
+fastqc_container	106.35%	449.2MiB / 125.4GiB	0.35%	2025-06-12 21:49:51
+
+==> Start Time: 2025-06-12 21:49:44
+==> End Time: 2025-06-12 21:49:57
+==> Total Time: 00:00:13
+
+
+HMS24051_S27_R2.fastq.gz
+--------------------
+fastqc_container	201.44%	162.8MiB / 125.4GiB	0.13%	2025-06-12 21:50:00
+fastqc_container	98.59%	442.4MiB / 125.4GiB	0.34%	2025-06-12 21:50:07
+
+==> Start Time: 2025-06-12 21:50:00
+==> End Time: 2025-06-12 21:50:13
+==> Total Time: 00:00:13
+
+
+HMS24052_S28_R1.fastq.gz
+--------------------
+fastqc_container	212.74%	244.4MiB / 125.4GiB	0.19%	2025-06-12 21:50:18
+fastqc_container	100.59%	443.4MiB / 125.4GiB	0.35%	2025-06-12 21:50:25
+fastqc_container	99.43%	453.5MiB / 125.4GiB	0.35%	2025-06-12 21:50:31
+
+==> Start Time: 2025-06-12 21:50:18
+==> End Time: 2025-06-12 21:50:38
+==> Total Time: 00:00:20
+
+
+HMS24052_S28_R2.fastq.gz
+--------------------
+fastqc_container	202.60%	168.1MiB / 125.4GiB	0.13%	2025-06-12 21:50:43
+fastqc_container	108.07%	435MiB / 125.4GiB	0.34%	2025-06-12 21:50:50
+fastqc_container	99.29%	449MiB / 125.4GiB	0.35%	2025-06-12 21:50:56
+
+==> Start Time: 2025-06-12 21:50:43
+==> End Time: 2025-06-12 21:51:10
+==> Total Time: 00:00:27
+

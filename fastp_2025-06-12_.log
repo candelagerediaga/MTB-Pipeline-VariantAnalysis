@@ -1,0 +1,238 @@
+<INFO>	[2025-06-12 21:51:10]	Creating sample_names.txt with the names of the samples that will be processed. Stored in Raw_Data.
+
+<INFO>	[2025-06-12 21:51:53]	Processing started...
+
+<INFO>	[2025-06-12 21:51:53]	New sample! Processing HCU24001_S1...
+<INFO>	[2025-06-12 21:51:53]	Paired Ends found for HCU24001_S1!
+<INFO>	[2025-06-12 21:51:53]	Executing fastp for sample HCU24001_S1 using input1=HCU24001_S1_R1.fastq.gz and input2=HCU24001_S1_R2.fastq.gz
+04832888f22c9c46ff72ba38c2ac02a8a6f43d6ccdeb151b31cfb65fc93979f3
+Read1 before filtering:
+total reads: 989109
+total bases: 272818264
+Q20 bases: 241063282(88.3604%)
+Q30 bases: 206641165(75.7432%)
+
+Read2 before filtering:
+total reads: 989109
+total bases: 277557543
+Q20 bases: 206343144(74.3425%)
+Q30 bases: 170639250(61.4789%)
+
+Read1 after filtering:
+total reads: 872079
+total bases: 237128380
+Q20 bases: 215206906(90.7554%)
+Q30 bases: 187945614(79.259%)
+
+Read2 after filtering:
+total reads: 872079
+total bases: 237344085
+Q20 bases: 188203826(79.2958%)
+Q30 bases: 159202907(67.0768%)
+
+Filtering result:
+reads passed filter: 1744158
+reads failed due to low quality: 234060
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 242002
+bases trimmed due to adapters: 6393935
+
+Duplication rate: 0.0745115%
+
+Insert size peak (evaluated by paired-end reads): 251
+
+JSON report: HCU24001_S1_fastp.json
+HTML report: HCU24001_S1_fastp.html
+
+fastp -i HCU24001_S1_R1.fastq.gz -I HCU24001_S1_R2.fastq.gz -o output_HCU24001_S1_R1.fastq.gz -O output_HCU24001_S1_R2.fastq.gz -q 20 --json HCU24001_S1_fastp.json --html HCU24001_S1_fastp.html 
+fastp v0.24.0, time used: 7 seconds
+fastp_container
+
+<INFO>	[2025-06-12 21:52:07]	Sample HCU24001_S1 processed. Moving output files...
+<INFO>	[2025-06-12 21:52:07]	File output_HCU24001_S1_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:07]	output_HCU24001_S1_R1.fastq.gz has been renamed to HCU24001_S1_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:07]	File output_HCU24001_S1_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:07]	output_HCU24001_S1_R2.fastq.gz has been renamed to HCU24001_S1_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:07]	File HCU24001_S1_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:07]	File HCU24001_S1_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:52:07]	New sample! Processing HCU24002_S2...
+<INFO>	[2025-06-12 21:52:07]	Paired Ends found for HCU24002_S2!
+<INFO>	[2025-06-12 21:52:07]	Executing fastp for sample HCU24002_S2 using input1=HCU24002_S2_R1.fastq.gz and input2=HCU24002_S2_R2.fastq.gz
+5bb049c3968157247c498d9006b841a4e6a1a200eb2d410138c9b29228ac59d3
+fastp_container
+
+<INFO>	[2025-06-12 21:52:13]	Sample HCU24002_S2 processed. Moving output files...
+<INFO>	[2025-06-12 21:52:13]	File output_HCU24002_S2_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:13]	output_HCU24002_S2_R1.fastq.gz has been renamed to HCU24002_S2_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:13]	File output_HCU24002_S2_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:13]	output_HCU24002_S2_R2.fastq.gz has been renamed to HCU24002_S2_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:13]	File HCU24002_S2_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:13]	File HCU24002_S2_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:52:13]	New sample! Processing HCU24010_S6...
+<INFO>	[2025-06-12 21:52:13]	Paired Ends found for HCU24010_S6!
+<INFO>	[2025-06-12 21:52:13]	Executing fastp for sample HCU24010_S6 using input1=HCU24010_S6_R1.fastq.gz and input2=HCU24010_S6_R2.fastq.gz
+741c2722d2b6ff07520a8ec9485989925a5526068ebec43c29771c35086dc3cc
+Read1 before filtering:
+total reads: 1126812
+total bases: 300435691
+Q20 bases: 272091086(90.5655%)
+Q30 bases: 238168003(79.2742%)
+
+Read2 before filtering:
+total reads: 1126812
+total bases: 308140315
+Q20 bases: 230996991(74.9649%)
+Q30 bases: 190539278(61.8352%)
+
+Read1 after filtering:
+total reads: 994111
+total bases: 260319638
+Q20 bases: 242123127(93.0099%)
+Q30 bases: 216238223(83.0664%)
+
+Read2 after filtering:
+total reads: 994111
+total bases: 260742128
+Q20 bases: 210542770(80.7475%)
+Q30 bases: 178233468(68.3562%)
+
+Filtering result:
+reads passed filter: 1988222
+reads failed due to low quality: 265402
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 336962
+bases trimmed due to adapters: 9095823
+
+Duplication rate: 0.103123%
+
+Insert size peak (evaluated by paired-end reads): 242
+
+JSON report: HCU24010_S6_fastp.json
+HTML report: HCU24010_S6_fastp.html
+
+fastp -i HCU24010_S6_R1.fastq.gz -I HCU24010_S6_R2.fastq.gz -o output_HCU24010_S6_R1.fastq.gz -O output_HCU24010_S6_R2.fastq.gz -q 20 --json HCU24010_S6_fastp.json --html HCU24010_S6_fastp.html 
+fastp v0.24.0, time used: 7 seconds
+fastp_container
+
+<INFO>	[2025-06-12 21:52:27]	Sample HCU24010_S6 processed. Moving output files...
+<INFO>	[2025-06-12 21:52:27]	File output_HCU24010_S6_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:27]	output_HCU24010_S6_R1.fastq.gz has been renamed to HCU24010_S6_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:27]	File output_HCU24010_S6_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:27]	output_HCU24010_S6_R2.fastq.gz has been renamed to HCU24010_S6_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:27]	File HCU24010_S6_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:27]	File HCU24010_S6_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:52:27]	New sample! Processing HCU24011_S7...
+<INFO>	[2025-06-12 21:52:27]	Paired Ends found for HCU24011_S7!
+<INFO>	[2025-06-12 21:52:27]	Executing fastp for sample HCU24011_S7 using input1=HCU24011_S7_R1.fastq.gz and input2=HCU24011_S7_R2.fastq.gz
+efe468de058815ab6d678f58faf9b798d5d370890cb68b4f6852b2f0569265af
+fastp_container
+
+<INFO>	[2025-06-12 21:52:33]	Sample HCU24011_S7 processed. Moving output files...
+<INFO>	[2025-06-12 21:52:34]	File output_HCU24011_S7_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:34]	output_HCU24011_S7_R1.fastq.gz has been renamed to HCU24011_S7_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:34]	File output_HCU24011_S7_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:34]	output_HCU24011_S7_R2.fastq.gz has been renamed to HCU24011_S7_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:34]	File HCU24011_S7_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:34]	File HCU24011_S7_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:52:34]	New sample! Processing HMS24017_S15...
+<INFO>	[2025-06-12 21:52:34]	Paired Ends found for HMS24017_S15!
+<INFO>	[2025-06-12 21:52:34]	Executing fastp for sample HMS24017_S15 using input1=HMS24017_S15_R1.fastq.gz and input2=HMS24017_S15_R2.fastq.gz
+cd4c18c4e4962c5567acec70314c3f7ceaf36e05a1073ce0f66f5cc350205b14
+fastp_container
+
+<INFO>	[2025-06-12 21:52:40]	Sample HMS24017_S15 processed. Moving output files...
+<INFO>	[2025-06-12 21:52:40]	File output_HMS24017_S15_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:40]	output_HMS24017_S15_R1.fastq.gz has been renamed to HMS24017_S15_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:40]	File output_HMS24017_S15_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:40]	output_HMS24017_S15_R2.fastq.gz has been renamed to HMS24017_S15_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:40]	File HMS24017_S15_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:40]	File HMS24017_S15_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:52:40]	New sample! Processing HMS24046_S23...
+<INFO>	[2025-06-12 21:52:40]	Paired Ends found for HMS24046_S23!
+<INFO>	[2025-06-12 21:52:40]	Executing fastp for sample HMS24046_S23 using input1=HMS24046_S23_R1.fastq.gz and input2=HMS24046_S23_R2.fastq.gz
+9abde650c0d9b495c92b2fb35fda0b4eb2ae706068e860f36f0904c65d84145b
+Read1 before filtering:
+total reads: 1101050
+total bases: 301967342
+Q20 bases: 273311742(90.5104%)
+Q30 bases: 238788581(79.0776%)
+
+Read2 before filtering:
+total reads: 1101050
+total bases: 309951605
+Q20 bases: 220738315(71.217%)
+Q30 bases: 177964616(57.4169%)
+
+Read1 after filtering:
+total reads: 908869
+total bases: 244434319
+Q20 bases: 228767840(93.5907%)
+Q30 bases: 205400353(84.0309%)
+
+Read2 after filtering:
+total reads: 908869
+total bases: 245231361
+Q20 bases: 192116336(78.3409%)
+Q30 bases: 160545644(65.467%)
+
+Filtering result:
+reads passed filter: 1817738
+reads failed due to low quality: 384362
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 289964
+bases trimmed due to adapters: 8162269
+
+Duplication rate: 0.0653013%
+
+Insert size peak (evaluated by paired-end reads): 252
+
+JSON report: HMS24046_S23_fastp.json
+HTML report: HMS24046_S23_fastp.html
+
+fastp -i HMS24046_S23_R1.fastq.gz -I HMS24046_S23_R2.fastq.gz -o output_HMS24046_S23_R1.fastq.gz -O output_HMS24046_S23_R2.fastq.gz -q 20 --json HMS24046_S23_fastp.json --html HMS24046_S23_fastp.html 
+fastp v0.24.0, time used: 8 seconds
+fastp_container
+
+<INFO>	[2025-06-12 21:52:54]	Sample HMS24046_S23 processed. Moving output files...
+<INFO>	[2025-06-12 21:52:54]	File output_HMS24046_S23_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:54]	output_HMS24046_S23_R1.fastq.gz has been renamed to HMS24046_S23_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:54]	File output_HMS24046_S23_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:54]	output_HMS24046_S23_R2.fastq.gz has been renamed to HMS24046_S23_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:52:54]	File HMS24046_S23_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:52:54]	File HMS24046_S23_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:52:54]	New sample! Processing HMS24051_S27...
+<INFO>	[2025-06-12 21:52:54]	Paired Ends found for HMS24051_S27!
+<INFO>	[2025-06-12 21:52:54]	Executing fastp for sample HMS24051_S27 using input1=HMS24051_S27_R1.fastq.gz and input2=HMS24051_S27_R2.fastq.gz
+d717c5dd149471769d2db2d3c13ea6701b74bd5ed14eb3a230045bf94c19ed31
+fastp_container
+
+<INFO>	[2025-06-12 21:53:00]	Sample HMS24051_S27 processed. Moving output files...
+<INFO>	[2025-06-12 21:53:00]	File output_HMS24051_S27_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:53:00]	output_HMS24051_S27_R1.fastq.gz has been renamed to HMS24051_S27_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:53:00]	File output_HMS24051_S27_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:53:00]	output_HMS24051_S27_R2.fastq.gz has been renamed to HMS24051_S27_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:53:00]	File HMS24051_S27_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:53:00]	File HMS24051_S27_fastp.html has been successfully moved to Analysis folder!
+
+<INFO>	[2025-06-12 21:53:00]	New sample! Processing HMS24052_S28...
+<INFO>	[2025-06-12 21:53:00]	Paired Ends found for HMS24052_S28!
+<INFO>	[2025-06-12 21:53:00]	Executing fastp for sample HMS24052_S28 using input1=HMS24052_S28_R1.fastq.gz and input2=HMS24052_S28_R2.fastq.gz
+491c7ce910653635b184a9105d5b53b67206438ebf826d715253313c9f29b204
+fastp_container
+
+<INFO>	[2025-06-12 21:53:14]	Sample HMS24052_S28 processed. Moving output files...
+<INFO>	[2025-06-12 21:53:14]	File output_HMS24052_S28_R1.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:53:14]	output_HMS24052_S28_R1.fastq.gz has been renamed to HMS24052_S28_R1.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:53:14]	File output_HMS24052_S28_R2.fastq.gz has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:53:14]	output_HMS24052_S28_R2.fastq.gz has been renamed to HMS24052_S28_R2.fastq.gz to fulfill the structure of MTBseq.
+<INFO>	[2025-06-12 21:53:14]	File HMS24052_S28_fastp.json has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:53:14]	File HMS24052_S28_fastp.html has been successfully moved to Analysis folder!

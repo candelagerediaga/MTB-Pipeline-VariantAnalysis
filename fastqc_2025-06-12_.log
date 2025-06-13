@@ -1,0 +1,596 @@
+
+<INFO>	[2025-06-12 21:46:10]	New sample! Processing HCU24001_S1_R1.fastq.gz...
+e411712add55de8fa2f542a5ae553bd2e302b743768af1dba8d7ee5a3f29afcb
+application/gzip
+Started analysis of HCU24001_S1_R1.fastq.gz
+Approx 5% complete for HCU24001_S1_R1.fastq.gz
+application/gzip
+Started analysis of HCU24001_S1_R1.fastq.gz
+Approx 5% complete for HCU24001_S1_R1.fastq.gz
+Approx 10% complete for HCU24001_S1_R1.fastq.gz
+Approx 15% complete for HCU24001_S1_R1.fastq.gz
+Approx 20% complete for HCU24001_S1_R1.fastq.gz
+Approx 25% complete for HCU24001_S1_R1.fastq.gz
+Approx 30% complete for HCU24001_S1_R1.fastq.gz
+Approx 35% complete for HCU24001_S1_R1.fastq.gz
+Approx 40% complete for HCU24001_S1_R1.fastq.gz
+Approx 45% complete for HCU24001_S1_R1.fastq.gz
+Approx 50% complete for HCU24001_S1_R1.fastq.gz
+Approx 55% complete for HCU24001_S1_R1.fastq.gz
+Approx 60% complete for HCU24001_S1_R1.fastq.gz
+Approx 65% complete for HCU24001_S1_R1.fastq.gz
+application/gzip
+Started analysis of HCU24001_S1_R1.fastq.gz
+Approx 5% complete for HCU24001_S1_R1.fastq.gz
+Approx 10% complete for HCU24001_S1_R1.fastq.gz
+Approx 15% complete for HCU24001_S1_R1.fastq.gz
+Approx 20% complete for HCU24001_S1_R1.fastq.gz
+Approx 25% complete for HCU24001_S1_R1.fastq.gz
+Approx 30% complete for HCU24001_S1_R1.fastq.gz
+Approx 35% complete for HCU24001_S1_R1.fastq.gz
+Approx 40% complete for HCU24001_S1_R1.fastq.gz
+Approx 45% complete for HCU24001_S1_R1.fastq.gz
+Approx 50% complete for HCU24001_S1_R1.fastq.gz
+Approx 55% complete for HCU24001_S1_R1.fastq.gz
+Approx 60% complete for HCU24001_S1_R1.fastq.gz
+Approx 65% complete for HCU24001_S1_R1.fastq.gz
+Approx 70% complete for HCU24001_S1_R1.fastq.gz
+Approx 75% complete for HCU24001_S1_R1.fastq.gz
+Approx 80% complete for HCU24001_S1_R1.fastq.gz
+Approx 85% complete for HCU24001_S1_R1.fastq.gz
+Approx 90% complete for HCU24001_S1_R1.fastq.gz
+Approx 95% complete for HCU24001_S1_R1.fastq.gz
+Analysis complete for HCU24001_S1_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:46:30]	File HCU24001_S1_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:46:30]	File HCU24001_S1_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:46:34]	New sample! Processing HCU24001_S1_R2.fastq.gz...
+72a741b82c36fc7fbd9dc77007eb41a9018ce4b1ac9d97ab996252ad922f5654
+application/gzip
+Started analysis of HCU24001_S1_R2.fastq.gz
+Approx 5% complete for HCU24001_S1_R2.fastq.gz
+application/gzip
+Started analysis of HCU24001_S1_R2.fastq.gz
+Approx 5% complete for HCU24001_S1_R2.fastq.gz
+Approx 10% complete for HCU24001_S1_R2.fastq.gz
+Approx 15% complete for HCU24001_S1_R2.fastq.gz
+Approx 20% complete for HCU24001_S1_R2.fastq.gz
+Approx 25% complete for HCU24001_S1_R2.fastq.gz
+Approx 30% complete for HCU24001_S1_R2.fastq.gz
+Approx 35% complete for HCU24001_S1_R2.fastq.gz
+Approx 40% complete for HCU24001_S1_R2.fastq.gz
+Approx 45% complete for HCU24001_S1_R2.fastq.gz
+Approx 50% complete for HCU24001_S1_R2.fastq.gz
+Approx 55% complete for HCU24001_S1_R2.fastq.gz
+Approx 60% complete for HCU24001_S1_R2.fastq.gz
+Approx 65% complete for HCU24001_S1_R2.fastq.gz
+application/gzip
+Started analysis of HCU24001_S1_R2.fastq.gz
+Approx 5% complete for HCU24001_S1_R2.fastq.gz
+Approx 10% complete for HCU24001_S1_R2.fastq.gz
+Approx 15% complete for HCU24001_S1_R2.fastq.gz
+Approx 20% complete for HCU24001_S1_R2.fastq.gz
+Approx 25% complete for HCU24001_S1_R2.fastq.gz
+Approx 30% complete for HCU24001_S1_R2.fastq.gz
+Approx 35% complete for HCU24001_S1_R2.fastq.gz
+Approx 40% complete for HCU24001_S1_R2.fastq.gz
+Approx 45% complete for HCU24001_S1_R2.fastq.gz
+Approx 50% complete for HCU24001_S1_R2.fastq.gz
+Approx 55% complete for HCU24001_S1_R2.fastq.gz
+Approx 60% complete for HCU24001_S1_R2.fastq.gz
+Approx 65% complete for HCU24001_S1_R2.fastq.gz
+Approx 70% complete for HCU24001_S1_R2.fastq.gz
+Approx 75% complete for HCU24001_S1_R2.fastq.gz
+Approx 80% complete for HCU24001_S1_R2.fastq.gz
+Approx 85% complete for HCU24001_S1_R2.fastq.gz
+Approx 90% complete for HCU24001_S1_R2.fastq.gz
+Approx 95% complete for HCU24001_S1_R2.fastq.gz
+Analysis complete for HCU24001_S1_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:46:53]	File HCU24001_S1_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:46:53]	File HCU24001_S1_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:46:55]	New sample! Processing HCU24002_S2_R1.fastq.gz...
+09b906c4ba4eeaf3769e59414b4d1e2d3afda8b4b80f19238f31e209c40af722
+application/gzip
+Started analysis of HCU24002_S2_R1.fastq.gz
+Approx 5% complete for HCU24002_S2_R1.fastq.gz
+Approx 10% complete for HCU24002_S2_R1.fastq.gz
+application/gzip
+Started analysis of HCU24002_S2_R1.fastq.gz
+Approx 5% complete for HCU24002_S2_R1.fastq.gz
+Approx 10% complete for HCU24002_S2_R1.fastq.gz
+Approx 15% complete for HCU24002_S2_R1.fastq.gz
+Approx 20% complete for HCU24002_S2_R1.fastq.gz
+Approx 25% complete for HCU24002_S2_R1.fastq.gz
+Approx 30% complete for HCU24002_S2_R1.fastq.gz
+Approx 35% complete for HCU24002_S2_R1.fastq.gz
+Approx 40% complete for HCU24002_S2_R1.fastq.gz
+Approx 45% complete for HCU24002_S2_R1.fastq.gz
+Approx 50% complete for HCU24002_S2_R1.fastq.gz
+Approx 55% complete for HCU24002_S2_R1.fastq.gz
+Approx 60% complete for HCU24002_S2_R1.fastq.gz
+Approx 65% complete for HCU24002_S2_R1.fastq.gz
+Approx 70% complete for HCU24002_S2_R1.fastq.gz
+Approx 75% complete for HCU24002_S2_R1.fastq.gz
+Approx 80% complete for HCU24002_S2_R1.fastq.gz
+Approx 85% complete for HCU24002_S2_R1.fastq.gz
+Approx 90% complete for HCU24002_S2_R1.fastq.gz
+Approx 95% complete for HCU24002_S2_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:47:08]	File HCU24002_S2_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:47:08]	File HCU24002_S2_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:47:11]	New sample! Processing HCU24002_S2_R2.fastq.gz...
+9372fe355af88340543e7e19cd8d3ad63f621b8df3b7a642857edf0387525a43
+application/gzip
+Started analysis of HCU24002_S2_R2.fastq.gz
+Approx 5% complete for HCU24002_S2_R2.fastq.gz
+Approx 10% complete for HCU24002_S2_R2.fastq.gz
+application/gzip
+Started analysis of HCU24002_S2_R2.fastq.gz
+Approx 5% complete for HCU24002_S2_R2.fastq.gz
+Approx 10% complete for HCU24002_S2_R2.fastq.gz
+Approx 15% complete for HCU24002_S2_R2.fastq.gz
+Approx 20% complete for HCU24002_S2_R2.fastq.gz
+Approx 25% complete for HCU24002_S2_R2.fastq.gz
+Approx 30% complete for HCU24002_S2_R2.fastq.gz
+Approx 35% complete for HCU24002_S2_R2.fastq.gz
+Approx 40% complete for HCU24002_S2_R2.fastq.gz
+Approx 45% complete for HCU24002_S2_R2.fastq.gz
+Approx 50% complete for HCU24002_S2_R2.fastq.gz
+Approx 55% complete for HCU24002_S2_R2.fastq.gz
+Approx 60% complete for HCU24002_S2_R2.fastq.gz
+Approx 65% complete for HCU24002_S2_R2.fastq.gz
+Approx 70% complete for HCU24002_S2_R2.fastq.gz
+Approx 75% complete for HCU24002_S2_R2.fastq.gz
+Approx 80% complete for HCU24002_S2_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:47:24]	File HCU24002_S2_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:47:24]	File HCU24002_S2_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:47:27]	New sample! Processing HCU24010_S6_R1.fastq.gz...
+9a76c152297450d7a764f019dc85e11f6edcfd98646b9e7bef00446d2fdcc8ae
+application/gzip
+Started analysis of HCU24010_S6_R1.fastq.gz
+Approx 5% complete for HCU24010_S6_R1.fastq.gz
+application/gzip
+Started analysis of HCU24010_S6_R1.fastq.gz
+Approx 5% complete for HCU24010_S6_R1.fastq.gz
+Approx 10% complete for HCU24010_S6_R1.fastq.gz
+Approx 15% complete for HCU24010_S6_R1.fastq.gz
+Approx 20% complete for HCU24010_S6_R1.fastq.gz
+Approx 25% complete for HCU24010_S6_R1.fastq.gz
+Approx 30% complete for HCU24010_S6_R1.fastq.gz
+Approx 35% complete for HCU24010_S6_R1.fastq.gz
+Approx 40% complete for HCU24010_S6_R1.fastq.gz
+Approx 45% complete for HCU24010_S6_R1.fastq.gz
+Approx 50% complete for HCU24010_S6_R1.fastq.gz
+Approx 55% complete for HCU24010_S6_R1.fastq.gz
+Approx 60% complete for HCU24010_S6_R1.fastq.gz
+application/gzip
+Started analysis of HCU24010_S6_R1.fastq.gz
+Approx 5% complete for HCU24010_S6_R1.fastq.gz
+Approx 10% complete for HCU24010_S6_R1.fastq.gz
+Approx 15% complete for HCU24010_S6_R1.fastq.gz
+Approx 20% complete for HCU24010_S6_R1.fastq.gz
+Approx 25% complete for HCU24010_S6_R1.fastq.gz
+Approx 30% complete for HCU24010_S6_R1.fastq.gz
+Approx 35% complete for HCU24010_S6_R1.fastq.gz
+Approx 40% complete for HCU24010_S6_R1.fastq.gz
+Approx 45% complete for HCU24010_S6_R1.fastq.gz
+Approx 50% complete for HCU24010_S6_R1.fastq.gz
+Approx 55% complete for HCU24010_S6_R1.fastq.gz
+Approx 60% complete for HCU24010_S6_R1.fastq.gz
+Approx 65% complete for HCU24010_S6_R1.fastq.gz
+Approx 70% complete for HCU24010_S6_R1.fastq.gz
+Approx 75% complete for HCU24010_S6_R1.fastq.gz
+Approx 80% complete for HCU24010_S6_R1.fastq.gz
+Approx 85% complete for HCU24010_S6_R1.fastq.gz
+Approx 90% complete for HCU24010_S6_R1.fastq.gz
+Approx 95% complete for HCU24010_S6_R1.fastq.gz
+Analysis complete for HCU24010_S6_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:47:47]	File HCU24010_S6_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:47:47]	File HCU24010_S6_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:47:50]	New sample! Processing HCU24010_S6_R2.fastq.gz...
+d90e59e5925da079f786385b97f0ad958870cbb2d1de20d89ee7654f86cb4c66
+application/gzip
+Started analysis of HCU24010_S6_R2.fastq.gz
+Approx 5% complete for HCU24010_S6_R2.fastq.gz
+application/gzip
+Started analysis of HCU24010_S6_R2.fastq.gz
+Approx 5% complete for HCU24010_S6_R2.fastq.gz
+Approx 10% complete for HCU24010_S6_R2.fastq.gz
+Approx 15% complete for HCU24010_S6_R2.fastq.gz
+Approx 20% complete for HCU24010_S6_R2.fastq.gz
+Approx 25% complete for HCU24010_S6_R2.fastq.gz
+Approx 30% complete for HCU24010_S6_R2.fastq.gz
+Approx 35% complete for HCU24010_S6_R2.fastq.gz
+Approx 40% complete for HCU24010_S6_R2.fastq.gz
+Approx 45% complete for HCU24010_S6_R2.fastq.gz
+Approx 50% complete for HCU24010_S6_R2.fastq.gz
+Approx 55% complete for HCU24010_S6_R2.fastq.gz
+application/gzip
+Started analysis of HCU24010_S6_R2.fastq.gz
+Approx 5% complete for HCU24010_S6_R2.fastq.gz
+Approx 10% complete for HCU24010_S6_R2.fastq.gz
+Approx 15% complete for HCU24010_S6_R2.fastq.gz
+Approx 20% complete for HCU24010_S6_R2.fastq.gz
+Approx 25% complete for HCU24010_S6_R2.fastq.gz
+Approx 30% complete for HCU24010_S6_R2.fastq.gz
+Approx 35% complete for HCU24010_S6_R2.fastq.gz
+Approx 40% complete for HCU24010_S6_R2.fastq.gz
+Approx 45% complete for HCU24010_S6_R2.fastq.gz
+Approx 50% complete for HCU24010_S6_R2.fastq.gz
+Approx 55% complete for HCU24010_S6_R2.fastq.gz
+Approx 60% complete for HCU24010_S6_R2.fastq.gz
+Approx 65% complete for HCU24010_S6_R2.fastq.gz
+Approx 70% complete for HCU24010_S6_R2.fastq.gz
+Approx 75% complete for HCU24010_S6_R2.fastq.gz
+Approx 80% complete for HCU24010_S6_R2.fastq.gz
+Approx 85% complete for HCU24010_S6_R2.fastq.gz
+Approx 90% complete for HCU24010_S6_R2.fastq.gz
+Approx 95% complete for HCU24010_S6_R2.fastq.gz
+Analysis complete for HCU24010_S6_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:48:10]	File HCU24010_S6_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:48:10]	File HCU24010_S6_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:48:11]	New sample! Processing HCU24011_S7_R1.fastq.gz...
+6f6330f2b64cfaeea38c0532b2a80e3f2e73ff40cdce1b29d1fa1726a2400ab3
+application/gzip
+Started analysis of HCU24011_S7_R1.fastq.gz
+Approx 5% complete for HCU24011_S7_R1.fastq.gz
+Approx 10% complete for HCU24011_S7_R1.fastq.gz
+Approx 15% complete for HCU24011_S7_R1.fastq.gz
+Approx 20% complete for HCU24011_S7_R1.fastq.gz
+Approx 25% complete for HCU24011_S7_R1.fastq.gz
+Approx 30% complete for HCU24011_S7_R1.fastq.gz
+Approx 35% complete for HCU24011_S7_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:48:18]	File HCU24011_S7_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:48:18]	File HCU24011_S7_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:48:19]	New sample! Processing HCU24011_S7_R2.fastq.gz...
+86e200566c9305ca3659fd74da8dc792441e9fa7bc8e2325a77a9f68ede295c5
+application/gzip
+Started analysis of HCU24011_S7_R2.fastq.gz
+Approx 5% complete for HCU24011_S7_R2.fastq.gz
+Approx 10% complete for HCU24011_S7_R2.fastq.gz
+Approx 15% complete for HCU24011_S7_R2.fastq.gz
+Approx 20% complete for HCU24011_S7_R2.fastq.gz
+Approx 25% complete for HCU24011_S7_R2.fastq.gz
+Approx 30% complete for HCU24011_S7_R2.fastq.gz
+Approx 35% complete for HCU24011_S7_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:48:25]	File HCU24011_S7_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:48:25]	File HCU24011_S7_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:48:27]	New sample! Processing HMS24017_S15_R1.fastq.gz...
+2a27d4207b2c6555563e84b7cd9aba5a83d4e26efc0ed6b214745d9e24aace17
+application/gzip
+Started analysis of HMS24017_S15_R1.fastq.gz
+Approx 5% complete for HMS24017_S15_R1.fastq.gz
+Approx 10% complete for HMS24017_S15_R1.fastq.gz
+Approx 15% complete for HMS24017_S15_R1.fastq.gz
+Approx 20% complete for HMS24017_S15_R1.fastq.gz
+application/gzip
+Started analysis of HMS24017_S15_R1.fastq.gz
+Approx 5% complete for HMS24017_S15_R1.fastq.gz
+Approx 10% complete for HMS24017_S15_R1.fastq.gz
+Approx 15% complete for HMS24017_S15_R1.fastq.gz
+Approx 20% complete for HMS24017_S15_R1.fastq.gz
+Approx 25% complete for HMS24017_S15_R1.fastq.gz
+Approx 30% complete for HMS24017_S15_R1.fastq.gz
+Approx 35% complete for HMS24017_S15_R1.fastq.gz
+Approx 40% complete for HMS24017_S15_R1.fastq.gz
+Approx 45% complete for HMS24017_S15_R1.fastq.gz
+Approx 50% complete for HMS24017_S15_R1.fastq.gz
+Approx 55% complete for HMS24017_S15_R1.fastq.gz
+Approx 60% complete for HMS24017_S15_R1.fastq.gz
+Approx 65% complete for HMS24017_S15_R1.fastq.gz
+Approx 70% complete for HMS24017_S15_R1.fastq.gz
+Approx 75% complete for HMS24017_S15_R1.fastq.gz
+Approx 80% complete for HMS24017_S15_R1.fastq.gz
+Approx 85% complete for HMS24017_S15_R1.fastq.gz
+Approx 90% complete for HMS24017_S15_R1.fastq.gz
+Approx 95% complete for HMS24017_S15_R1.fastq.gz
+Analysis complete for HMS24017_S15_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:48:40]	File HMS24017_S15_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:48:40]	File HMS24017_S15_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:48:41]	New sample! Processing HMS24017_S15_R2.fastq.gz...
+b5a4d34c3847da4fc2b239c6f69e605b781128139aa9d941e7e896af647d20fa
+application/gzip
+Started analysis of HMS24017_S15_R2.fastq.gz
+Approx 5% complete for HMS24017_S15_R2.fastq.gz
+Approx 10% complete for HMS24017_S15_R2.fastq.gz
+Approx 15% complete for HMS24017_S15_R2.fastq.gz
+Approx 20% complete for HMS24017_S15_R2.fastq.gz
+application/gzip
+Started analysis of HMS24017_S15_R2.fastq.gz
+Approx 5% complete for HMS24017_S15_R2.fastq.gz
+Approx 10% complete for HMS24017_S15_R2.fastq.gz
+Approx 15% complete for HMS24017_S15_R2.fastq.gz
+Approx 20% complete for HMS24017_S15_R2.fastq.gz
+Approx 25% complete for HMS24017_S15_R2.fastq.gz
+Approx 30% complete for HMS24017_S15_R2.fastq.gz
+Approx 35% complete for HMS24017_S15_R2.fastq.gz
+Approx 40% complete for HMS24017_S15_R2.fastq.gz
+Approx 45% complete for HMS24017_S15_R2.fastq.gz
+Approx 50% complete for HMS24017_S15_R2.fastq.gz
+Approx 55% complete for HMS24017_S15_R2.fastq.gz
+Approx 60% complete for HMS24017_S15_R2.fastq.gz
+Approx 65% complete for HMS24017_S15_R2.fastq.gz
+Approx 70% complete for HMS24017_S15_R2.fastq.gz
+Approx 75% complete for HMS24017_S15_R2.fastq.gz
+Approx 80% complete for HMS24017_S15_R2.fastq.gz
+Approx 85% complete for HMS24017_S15_R2.fastq.gz
+Approx 90% complete for HMS24017_S15_R2.fastq.gz
+Approx 95% complete for HMS24017_S15_R2.fastq.gz
+Analysis complete for HMS24017_S15_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:48:55]	File HMS24017_S15_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:48:55]	File HMS24017_S15_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:48:58]	New sample! Processing HMS24046_S23_R1.fastq.gz...
+c68255524aa01fab0140c2f8eff8eaae9c40637024d86e3ea7c9dfcddd659725
+application/gzip
+Started analysis of HMS24046_S23_R1.fastq.gz
+Approx 5% complete for HMS24046_S23_R1.fastq.gz
+application/gzip
+Started analysis of HMS24046_S23_R1.fastq.gz
+Approx 5% complete for HMS24046_S23_R1.fastq.gz
+Approx 10% complete for HMS24046_S23_R1.fastq.gz
+Approx 15% complete for HMS24046_S23_R1.fastq.gz
+Approx 20% complete for HMS24046_S23_R1.fastq.gz
+Approx 25% complete for HMS24046_S23_R1.fastq.gz
+Approx 30% complete for HMS24046_S23_R1.fastq.gz
+Approx 35% complete for HMS24046_S23_R1.fastq.gz
+Approx 40% complete for HMS24046_S23_R1.fastq.gz
+Approx 45% complete for HMS24046_S23_R1.fastq.gz
+Approx 50% complete for HMS24046_S23_R1.fastq.gz
+Approx 55% complete for HMS24046_S23_R1.fastq.gz
+Approx 60% complete for HMS24046_S23_R1.fastq.gz
+application/gzip
+Started analysis of HMS24046_S23_R1.fastq.gz
+Approx 5% complete for HMS24046_S23_R1.fastq.gz
+Approx 10% complete for HMS24046_S23_R1.fastq.gz
+Approx 15% complete for HMS24046_S23_R1.fastq.gz
+Approx 20% complete for HMS24046_S23_R1.fastq.gz
+Approx 25% complete for HMS24046_S23_R1.fastq.gz
+Approx 30% complete for HMS24046_S23_R1.fastq.gz
+Approx 35% complete for HMS24046_S23_R1.fastq.gz
+Approx 40% complete for HMS24046_S23_R1.fastq.gz
+Approx 45% complete for HMS24046_S23_R1.fastq.gz
+Approx 50% complete for HMS24046_S23_R1.fastq.gz
+Approx 55% complete for HMS24046_S23_R1.fastq.gz
+Approx 60% complete for HMS24046_S23_R1.fastq.gz
+Approx 65% complete for HMS24046_S23_R1.fastq.gz
+Approx 70% complete for HMS24046_S23_R1.fastq.gz
+Approx 75% complete for HMS24046_S23_R1.fastq.gz
+Approx 80% complete for HMS24046_S23_R1.fastq.gz
+Approx 85% complete for HMS24046_S23_R1.fastq.gz
+Approx 90% complete for HMS24046_S23_R1.fastq.gz
+Approx 95% complete for HMS24046_S23_R1.fastq.gz
+Analysis complete for HMS24046_S23_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:49:18]	File HMS24046_S23_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:49:18]	File HMS24046_S23_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:49:22]	New sample! Processing HMS24046_S23_R2.fastq.gz...
+d91e7310666fbfcf688571a254e6a49a60fbf1859c70addc6eac03f995389885
+application/gzip
+Started analysis of HMS24046_S23_R2.fastq.gz
+Approx 5% complete for HMS24046_S23_R2.fastq.gz
+application/gzip
+Started analysis of HMS24046_S23_R2.fastq.gz
+Approx 5% complete for HMS24046_S23_R2.fastq.gz
+Approx 10% complete for HMS24046_S23_R2.fastq.gz
+Approx 15% complete for HMS24046_S23_R2.fastq.gz
+Approx 20% complete for HMS24046_S23_R2.fastq.gz
+Approx 25% complete for HMS24046_S23_R2.fastq.gz
+Approx 30% complete for HMS24046_S23_R2.fastq.gz
+Approx 35% complete for HMS24046_S23_R2.fastq.gz
+Approx 40% complete for HMS24046_S23_R2.fastq.gz
+Approx 45% complete for HMS24046_S23_R2.fastq.gz
+Approx 50% complete for HMS24046_S23_R2.fastq.gz
+Approx 55% complete for HMS24046_S23_R2.fastq.gz
+Approx 60% complete for HMS24046_S23_R2.fastq.gz
+application/gzip
+Started analysis of HMS24046_S23_R2.fastq.gz
+Approx 5% complete for HMS24046_S23_R2.fastq.gz
+Approx 10% complete for HMS24046_S23_R2.fastq.gz
+Approx 15% complete for HMS24046_S23_R2.fastq.gz
+Approx 20% complete for HMS24046_S23_R2.fastq.gz
+Approx 25% complete for HMS24046_S23_R2.fastq.gz
+Approx 30% complete for HMS24046_S23_R2.fastq.gz
+Approx 35% complete for HMS24046_S23_R2.fastq.gz
+Approx 40% complete for HMS24046_S23_R2.fastq.gz
+Approx 45% complete for HMS24046_S23_R2.fastq.gz
+Approx 50% complete for HMS24046_S23_R2.fastq.gz
+Approx 55% complete for HMS24046_S23_R2.fastq.gz
+Approx 60% complete for HMS24046_S23_R2.fastq.gz
+Approx 65% complete for HMS24046_S23_R2.fastq.gz
+Approx 70% complete for HMS24046_S23_R2.fastq.gz
+Approx 75% complete for HMS24046_S23_R2.fastq.gz
+Approx 80% complete for HMS24046_S23_R2.fastq.gz
+Approx 85% complete for HMS24046_S23_R2.fastq.gz
+Approx 90% complete for HMS24046_S23_R2.fastq.gz
+Approx 95% complete for HMS24046_S23_R2.fastq.gz
+Analysis complete for HMS24046_S23_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:49:42]	File HMS24046_S23_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:49:42]	File HMS24046_S23_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:49:44]	New sample! Processing HMS24051_S27_R1.fastq.gz...
+d07a7e99dafea8845b37e6229c1db485adedac4caaab168a04bf74a4ea682897
+application/gzip
+Started analysis of HMS24051_S27_R1.fastq.gz
+Approx 5% complete for HMS24051_S27_R1.fastq.gz
+Approx 10% complete for HMS24051_S27_R1.fastq.gz
+application/gzip
+Started analysis of HMS24051_S27_R1.fastq.gz
+Approx 5% complete for HMS24051_S27_R1.fastq.gz
+Approx 10% complete for HMS24051_S27_R1.fastq.gz
+Approx 15% complete for HMS24051_S27_R1.fastq.gz
+Approx 20% complete for HMS24051_S27_R1.fastq.gz
+Approx 25% complete for HMS24051_S27_R1.fastq.gz
+Approx 30% complete for HMS24051_S27_R1.fastq.gz
+Approx 35% complete for HMS24051_S27_R1.fastq.gz
+Approx 40% complete for HMS24051_S27_R1.fastq.gz
+Approx 45% complete for HMS24051_S27_R1.fastq.gz
+Approx 50% complete for HMS24051_S27_R1.fastq.gz
+Approx 55% complete for HMS24051_S27_R1.fastq.gz
+Approx 60% complete for HMS24051_S27_R1.fastq.gz
+Approx 65% complete for HMS24051_S27_R1.fastq.gz
+Approx 70% complete for HMS24051_S27_R1.fastq.gz
+Approx 75% complete for HMS24051_S27_R1.fastq.gz
+Approx 80% complete for HMS24051_S27_R1.fastq.gz
+Approx 85% complete for HMS24051_S27_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:49:57]	File HMS24051_S27_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:49:57]	File HMS24051_S27_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:50:00]	New sample! Processing HMS24051_S27_R2.fastq.gz...
+8b01b0ddf86dfb1da5985db61e28f59efa5faca72016de64a0d04f3f53acab17
+application/gzip
+Started analysis of HMS24051_S27_R2.fastq.gz
+Approx 5% complete for HMS24051_S27_R2.fastq.gz
+Approx 10% complete for HMS24051_S27_R2.fastq.gz
+application/gzip
+Started analysis of HMS24051_S27_R2.fastq.gz
+Approx 5% complete for HMS24051_S27_R2.fastq.gz
+Approx 10% complete for HMS24051_S27_R2.fastq.gz
+Approx 15% complete for HMS24051_S27_R2.fastq.gz
+Approx 20% complete for HMS24051_S27_R2.fastq.gz
+Approx 25% complete for HMS24051_S27_R2.fastq.gz
+Approx 30% complete for HMS24051_S27_R2.fastq.gz
+Approx 35% complete for HMS24051_S27_R2.fastq.gz
+Approx 40% complete for HMS24051_S27_R2.fastq.gz
+Approx 45% complete for HMS24051_S27_R2.fastq.gz
+Approx 50% complete for HMS24051_S27_R2.fastq.gz
+Approx 55% complete for HMS24051_S27_R2.fastq.gz
+Approx 60% complete for HMS24051_S27_R2.fastq.gz
+Approx 65% complete for HMS24051_S27_R2.fastq.gz
+Approx 70% complete for HMS24051_S27_R2.fastq.gz
+Approx 75% complete for HMS24051_S27_R2.fastq.gz
+Approx 80% complete for HMS24051_S27_R2.fastq.gz
+Approx 85% complete for HMS24051_S27_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:50:13]	File HMS24051_S27_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:50:13]	File HMS24051_S27_R2_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:50:18]	New sample! Processing HMS24052_S28_R1.fastq.gz...
+6bc53943127d98102e055e68982ecd1f307a0544e53dbeade65b60bf9a3c20c3
+application/gzip
+Started analysis of HMS24052_S28_R1.fastq.gz
+Approx 5% complete for HMS24052_S28_R1.fastq.gz
+application/gzip
+Started analysis of HMS24052_S28_R1.fastq.gz
+Approx 5% complete for HMS24052_S28_R1.fastq.gz
+Approx 10% complete for HMS24052_S28_R1.fastq.gz
+Approx 15% complete for HMS24052_S28_R1.fastq.gz
+Approx 20% complete for HMS24052_S28_R1.fastq.gz
+Approx 25% complete for HMS24052_S28_R1.fastq.gz
+Approx 30% complete for HMS24052_S28_R1.fastq.gz
+Approx 35% complete for HMS24052_S28_R1.fastq.gz
+Approx 40% complete for HMS24052_S28_R1.fastq.gz
+application/gzip
+Started analysis of HMS24052_S28_R1.fastq.gz
+Approx 5% complete for HMS24052_S28_R1.fastq.gz
+Approx 10% complete for HMS24052_S28_R1.fastq.gz
+Approx 15% complete for HMS24052_S28_R1.fastq.gz
+Approx 20% complete for HMS24052_S28_R1.fastq.gz
+Approx 25% complete for HMS24052_S28_R1.fastq.gz
+Approx 30% complete for HMS24052_S28_R1.fastq.gz
+Approx 35% complete for HMS24052_S28_R1.fastq.gz
+Approx 40% complete for HMS24052_S28_R1.fastq.gz
+Approx 45% complete for HMS24052_S28_R1.fastq.gz
+Approx 50% complete for HMS24052_S28_R1.fastq.gz
+Approx 55% complete for HMS24052_S28_R1.fastq.gz
+Approx 60% complete for HMS24052_S28_R1.fastq.gz
+Approx 65% complete for HMS24052_S28_R1.fastq.gz
+Approx 70% complete for HMS24052_S28_R1.fastq.gz
+Approx 75% complete for HMS24052_S28_R1.fastq.gz
+Approx 80% complete for HMS24052_S28_R1.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:50:38]	File HMS24052_S28_R1_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:50:38]	File HMS24052_S28_R1_fastqc.zip has been successfully moved to Analysis folder!
+
+
+<INFO>	[2025-06-12 21:50:43]	New sample! Processing HMS24052_S28_R2.fastq.gz...
+067c0d27c9b0e7a17d4e43ad06857eadc83178fb00cbba95647317c6acd9e970
+application/gzip
+Started analysis of HMS24052_S28_R2.fastq.gz
+Approx 5% complete for HMS24052_S28_R2.fastq.gz
+application/gzip
+Started analysis of HMS24052_S28_R2.fastq.gz
+Approx 5% complete for HMS24052_S28_R2.fastq.gz
+Approx 10% complete for HMS24052_S28_R2.fastq.gz
+Approx 15% complete for HMS24052_S28_R2.fastq.gz
+Approx 20% complete for HMS24052_S28_R2.fastq.gz
+Approx 25% complete for HMS24052_S28_R2.fastq.gz
+Approx 30% complete for HMS24052_S28_R2.fastq.gz
+Approx 35% complete for HMS24052_S28_R2.fastq.gz
+application/gzip
+Started analysis of HMS24052_S28_R2.fastq.gz
+Approx 5% complete for HMS24052_S28_R2.fastq.gz
+Approx 10% complete for HMS24052_S28_R2.fastq.gz
+Approx 15% complete for HMS24052_S28_R2.fastq.gz
+Approx 20% complete for HMS24052_S28_R2.fastq.gz
+Approx 25% complete for HMS24052_S28_R2.fastq.gz
+Approx 30% complete for HMS24052_S28_R2.fastq.gz
+Approx 35% complete for HMS24052_S28_R2.fastq.gz
+Approx 40% complete for HMS24052_S28_R2.fastq.gz
+Approx 45% complete for HMS24052_S28_R2.fastq.gz
+Approx 50% complete for HMS24052_S28_R2.fastq.gz
+Approx 55% complete for HMS24052_S28_R2.fastq.gz
+Approx 60% complete for HMS24052_S28_R2.fastq.gz
+Approx 65% complete for HMS24052_S28_R2.fastq.gz
+Approx 70% complete for HMS24052_S28_R2.fastq.gz
+Approx 75% complete for HMS24052_S28_R2.fastq.gz
+application/gzip
+Started analysis of HMS24052_S28_R2.fastq.gz
+Approx 5% complete for HMS24052_S28_R2.fastq.gz
+Approx 10% complete for HMS24052_S28_R2.fastq.gz
+Approx 15% complete for HMS24052_S28_R2.fastq.gz
+Approx 20% complete for HMS24052_S28_R2.fastq.gz
+Approx 25% complete for HMS24052_S28_R2.fastq.gz
+Approx 30% complete for HMS24052_S28_R2.fastq.gz
+Approx 35% complete for HMS24052_S28_R2.fastq.gz
+Approx 40% complete for HMS24052_S28_R2.fastq.gz
+Approx 45% complete for HMS24052_S28_R2.fastq.gz
+Approx 50% complete for HMS24052_S28_R2.fastq.gz
+Approx 55% complete for HMS24052_S28_R2.fastq.gz
+Approx 60% complete for HMS24052_S28_R2.fastq.gz
+Approx 65% complete for HMS24052_S28_R2.fastq.gz
+Approx 70% complete for HMS24052_S28_R2.fastq.gz
+Approx 75% complete for HMS24052_S28_R2.fastq.gz
+Approx 80% complete for HMS24052_S28_R2.fastq.gz
+Approx 85% complete for HMS24052_S28_R2.fastq.gz
+Approx 90% complete for HMS24052_S28_R2.fastq.gz
+Approx 95% complete for HMS24052_S28_R2.fastq.gz
+Analysis complete for HMS24052_S28_R2.fastq.gz
+fastqc_container
+<INFO>	[2025-06-12 21:51:10]	File HMS24052_S28_R2_fastqc.html has been successfully moved to Analysis folder!
+<INFO>	[2025-06-12 21:51:10]	File HMS24052_S28_R2_fastqc.zip has been successfully moved to Analysis folder!
+
