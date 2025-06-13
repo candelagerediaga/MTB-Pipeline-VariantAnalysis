@@ -32,7 +32,7 @@ This will automatically call the `check_samples.sh` script, which performs the f
 If new samples are detected, the following scripts are triggered:
 
 * `FastQC.sh`: Performs quality control.
-* `fastp.sh`: Executes preprocessing.
+* `fastp.sh`: Performs quality control and executes preprocessing.
 
 Both scripts check if output files already exist in the `Analysis` folder. If they do, the sample is skipped. After this step, if any new samples were processed, a MultiQC report is generated to summarize the quality analysis results.
 
